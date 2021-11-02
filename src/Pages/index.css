@@ -12,6 +12,7 @@
     width: 60%;
     font-family: Arial, Helvetica, sans-serif;
 	font-size: 24px;
+
     color: #0C1821;
 }
 
@@ -135,4 +136,28 @@
 .previousWorkContainer h1
 {
     padding-top: 5vh;
+    padding-bottom: 3vh;
 }
+
+.worksContainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+
+    height: 40%;
+    width: 85%;
+}
+
+.workCard
+{
+    float: left;
+    padding: 5%;
+    margin: auto;
+
+    height: 300px;
+    width: 500px;
+
+    border-radius: 1vh;
+}
+

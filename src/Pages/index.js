@@ -1,6 +1,8 @@
 import React from 'react';
 import { VertDivider } from '../Components/Divider/Divider';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './index.css';
+import OverlayImages from '../Components/Images/OverlayImages/OverlayImages';
 
 const Home = () => {
 	return (
@@ -121,7 +123,29 @@ const Home = () => {
 				</div>
 				
 				<div className="previousWorkContainer">
-					<h1>Previous Projects</h1>
+					<h1>Previous Works</h1>
+
+					<div className="worksContainer">
+						<div className="workCard">
+							<OverlayImages 
+								title = "Full Swing Golf Simulator" 
+								body="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+								linkText="Check out there website"
+								link="https://www.fullswinggolf.com/"
+								imageLink="./Images/FullSwingGolfSimulator.jpg"
+							/>
+						</div>
+
+						<div className="workCard">
+							<OverlayImages 
+								title = "PokerGo Holdem" 
+								body="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+								linkText="Check it out on the appstore"
+								link="https://play.google.com/store/apps/details?id=com.PokerGO.Holdem&hl=en_US&gl=US"
+								imageLink="./Images/PokerGOHoldEm.png"
+							/>
+						</div>
+					</div>
 				</div>
 			</body>
 		</>

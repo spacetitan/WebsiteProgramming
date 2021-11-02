@@ -1,0 +1,88 @@
+.imageBox
+{
+    position: relative;
+
+    height: 100%;
+    width: 100%;
+
+    overflow: hidden;
+    border-radius: 1vh;
+}
+
+.overlay h2
+{
+    padding-top: 5%;
+}
+
+.overlay p
+{
+    padding: 5%;
+}
+
+.workLink:link
+{
+    color:#EDF2F4;
+}
+
+.workLink:hover
+{
+    color: #540B0E;
+}
+
+.workLink:visited
+{
+    color: #8D99AE;
+}
+
+.workLink:active
+{
+    color: #8D99AE;
+}
+
+.linkButton
+{
+    color: #EDF2F4;
+    background-color:transparent;
+    border: 2px solid #EDF2F4;
+    border-radius: 1vh;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.linkButton:hover
+{
+    background-color: #540B0E;
+}
+
+.imageBox .overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #EDF2F4;
+    background: #0C1821;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.imageBox:hover .overlay
+{
+    opacity: .9;
+}
+
+.workImage
+{
+    position:relative;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 110%;
+    width: auto;
+}
