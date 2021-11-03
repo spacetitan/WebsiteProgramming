@@ -130,7 +130,7 @@
     color: #0C1821;
     background-color: #EDF2F4;
 
-    height: 65%;
+    height: 35%;
 }
 
 .previousWorkContainer h1
@@ -145,15 +145,15 @@
     flex-wrap: wrap;
     margin: auto;
 
-    height: 40%;
+    height: 20%;
     width: 85%;
 }
 
 .workCard
 {
     float: left;
-    padding: 5%;
     margin: auto;
+    padding-bottom: 5vh;
 
     height: 300px;
     width: 500px;

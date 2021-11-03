@@ -1,8 +1,10 @@
 import React from 'react';
+import './index.css';
+
 import { VertDivider } from '../Components/Divider/Divider';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import './index.css';
 import OverlayImages from '../Components/Images/OverlayImages/OverlayImages';
+import Footer from '../Components/Footer/Footer';
 
 const Home = () => {
 	return (
@@ -145,8 +147,40 @@ const Home = () => {
 								imageLink="./Images/PokerGOHoldEm.png"
 							/>
 						</div>
+
+						<div className="workCard">
+							<OverlayImages 
+								title = ""
+								body=""
+								linkText=""
+								link=""
+								imageLink="./Images/tempImage.png"
+							/>
+						</div>
+
+						<div className="workCard">
+							<OverlayImages 
+								title = ""
+								body=""
+								linkText=""
+								link=""
+								imageLink="./Images/tempImage.png"
+							/>
+						</div>
+
+						<div className="workCard">
+							<OverlayImages 
+								title = ""
+								body=""
+								linkText=""
+								link=""
+								imageLink="./Images/tempImage.png"
+							/>
+						</div>
 					</div>
 				</div>
+
+				<Footer />
 			</body>
 		</>
 	);
