@@ -9,20 +9,19 @@ const OverlayImages = ({title, body, linkText, link, imageLink}) =>
     const checkLink = link == null ? "./Images/tempImage.png" : link;
     const checkImage = imageLink == null ? "" : imageLink;
 
-    return(
-        <div className="imageBox">
-            <img src={checkImage} alt="" className="workImage" />
+return(
+    <div className="imageBox">
+        <img src={checkImage} alt="" className="workImage" />
 
-            <div className="overlay">
-                <h2>{checkTitle}</h2>
+        <div className="overlay">
+            <h2>{checkTitle}</h2>
 
-                <p>{checkBody}</p>
+            <p>{checkBody}</p>
 
-                <a href={checkLink} target="_blank" className="workLink"><button className="linkButton">{checkLinkText}</button></a>
-                
-            </div>
+            <a href={checkLink} target="_blank" className="workLink"><button className="linkButton">{checkLinkText}</button></a>
+            
         </div>
-    );
-}
+    </div>
+);}
 
 export default OverlayImages;

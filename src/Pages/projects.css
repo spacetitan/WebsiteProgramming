@@ -1,0 +1,17 @@
+.header
+{
+    height: 20%;
+    width: 100%;
+}
+
+.body
+{
+    height: 30vh;
+    width: 100%;
+}
+
+.cardContainer
+{
+    height: 300px;
+    width: 500px;
+}

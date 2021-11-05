@@ -61,12 +61,11 @@
 
 .skillCard
 {
-    flex: auto;
-    margin: auto;
-
+    margin-top: 15px;
     padding: 3%;
-    width: 25%;
-    height: 90%;
+
+    width: 30%;
+    height: 95%;
 
     color: #0C1821;
 }
@@ -80,16 +79,15 @@
     width: 150px;
 }
 
-.skillCard h2
+.header
 {
-    display: flex;
-    align-items: center;
     justify-content: center;
+    vertical-align: middle;
 
+    height: 10vh;
     padding-bottom: 5%;
-    height: 10%;
 
-    font-size: 36px;
+    font-size: 32px;
 }
 
 .skillCard h3
@@ -109,12 +107,12 @@
 
 .experienceBlock
 {
-    height: 12%;
+    height: 15vh;
 }
 
 .skillsBlock
 {
-    height: 5%;
+    height: 8vh;
 }
 
 .skillCard li

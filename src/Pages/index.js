@@ -3,7 +3,7 @@ import './index.css';
 
 import { VertDivider } from '../Components/Divider/Divider';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import OverlayImages from '../Components/Images/OverlayImages/OverlayImages';
+import OverlayImages from '../Components/Images/OverlayCards/OverlayImages';
 import Footer from '../Components/Footer/Footer';
 
 const Home = () => {
@@ -11,7 +11,7 @@ return (
 	<>
 		<header className='header'>
 			<h1 className='headerText'>
-				Front End Game Dev and Full stack Web Dev
+				Front End Game Dev and Full Stack Web Dev
 			</h1>
 			
 			<p className="subHeader">
@@ -42,8 +42,11 @@ return (
 			<div className="skillContainer">
 				<div className="skillCard">
 					<img className="skillImage" src="./Images/tempImage.png" alt="" />
-
-					<h2>Front End Game Developer</h2>
+					
+					<div className="header">
+						<h2>Front End Game Developer</h2>
+					</div>
+					
 
 					<p className="experienceBlock">
 						3 years industry experience with Unity Engine and experience porting projects from Unreal Engine to consoles. 
@@ -72,8 +75,10 @@ return (
 				<div className="skillCard">
 					<img className="skillImage" src="./Images/tempImage.png" alt="" />
 
-					<h2>Full Stack Web Developer</h2>
-
+					<div className="header">
+						<h2>Full Stack Web Developer</h2>
+					</div>
+					
 					<p className="experienceBlock">
 						Experienced with multiple JS Libraries including React, multiple years industy experience with UI/UX implementation and programming.
 					</p>
@@ -99,7 +104,10 @@ return (
 				<div className="skillCard">	
 					<img className="skillImage" src="./Images/tempImage.png" alt="" />
 
-					<h2>Tarot Card Reader</h2>
+					<div className="header">
+						<h2>Tarot Card Reader</h2>
+					</div>
+					
 
 					<p className="experienceBlock">
 						6 years experience reading cards and fortune for many who are skeptical or interested in many different enviroments. 
