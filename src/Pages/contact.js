@@ -1,18 +1,19 @@
 import React from 'react';
 
+import Footer from '../Components/Footer/Footer';
+
 const Contact = () => {
 return (
-	<div
-	style={{
-		display: 'flex',
-		justifyContent: 'Left',
-		alignItems: 'Left',
-		height: '100vh'
-	}}
-	>
-	<h1>Test Home page.</h1>
-	</div>
-);
-};
+	<>
+		<header>
+
+		</header>
+
+		<body>
+			
+			<Footer />
+		</body>
+	</>
+);};
 
 export default Contact;
