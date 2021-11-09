@@ -7,8 +7,8 @@ const PortfolioCards = ({title, body, linkText, link, imageLink}) =>
     const checkTitle = title == null ? "Need Title" : title;
     const checkBody = body == null ? "Need Body" : body;
     const checkLinkText = linkText == null ? "Need Link Text" : linkText + " >";
-    const checkLink = link == null ? "./Images/tempImage.png" : link;
-    const checkImage = imageLink == null ? "" : imageLink;
+    const checkLink = link == null ? "" : "/portfolio/" + link;
+    const checkImage = imageLink == null ? "./Images/tempImage.png" : imageLink;
 
 return(
     <div className="imageBox">
@@ -19,7 +19,7 @@ return(
 
             <p>{checkBody}</p>
 
-            <Link to={checkLink} target="_blank" className="workLink">
+            <Link to={checkLink} className="workLink">
                 <button className="linkButton">{checkLinkText}</button>
             </Link>
             

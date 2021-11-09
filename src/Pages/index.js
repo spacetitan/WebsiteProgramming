@@ -9,7 +9,7 @@ import Footer from '../Components/Footer/Footer';
 const Home = () => {
 return (
 	<>
-		<header className='header'>
+		<div className="indexHeader">
 			<h1 className='headerText'>
 				Front End Game Dev and Full Stack Web Dev
 			</h1>
@@ -23,9 +23,10 @@ return (
 			<div>
 				<img src="./Images/tempImage.png" alt="" />
 			</div>
-		</header>
+		</div>
 
 		<body className='body'>
+		<div className="headerContainer">
 			<h1 className="bodyHeader">
 				Benjamin Navarro
 			</h1>
@@ -38,7 +39,9 @@ return (
 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 			</p>
+		</div>
 
+		<div className="skillbackground">
 			<div className="skillContainer">
 				<div className="skillCard">
 					<img className="skillImage" src="./Images/tempImage.png" alt="" />
@@ -129,6 +132,7 @@ return (
 					<li>Alcohol</li>
 				</div>
 			</div>
+		</div>
 			
 			<div className="previousWorkContainer">
 				<h1>Previous Works</h1>

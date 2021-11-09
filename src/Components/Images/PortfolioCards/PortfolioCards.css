@@ -1,6 +1,7 @@
 .container
 {
-    position: relative;
+    position: flex;
+    flex-wrap: wrap;
 
     height: 100%;
     width: 100%;
@@ -79,6 +80,7 @@
 .backgroundImage
 {
     position:relative;
+    justify-content: center;
     
     display: block;
     margin-left: auto;
