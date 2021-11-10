@@ -2,7 +2,6 @@ import React from 'react';
 import './index.css';
 
 import { VertDivider } from '../Components/Divider/Divider';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import OverlayImages from '../Components/Images/OverlayCards/OverlayImages';
 import Footer from '../Components/Footer/Footer';
 
@@ -46,7 +45,7 @@ return (
 				<div className="skillCard">
 					<img className="skillImage" src="./Images/tempImage.png" alt="" />
 					
-					<div className="header">
+					<div className="skillHeader">
 						<h2>Front End Game Developer</h2>
 					</div>
 					
@@ -78,7 +77,7 @@ return (
 				<div className="skillCard">
 					<img className="skillImage" src="./Images/tempImage.png" alt="" />
 
-					<div className="header">
+					<div className="skillHeader">
 						<h2>Full Stack Web Developer</h2>
 					</div>
 					
@@ -107,7 +106,7 @@ return (
 				<div className="skillCard">	
 					<img className="skillImage" src="./Images/tempImage.png" alt="" />
 
-					<div className="header">
+					<div className="skillHeader">
 						<h2>Tarot Card Reader</h2>
 					</div>
 					

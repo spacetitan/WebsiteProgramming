@@ -95,13 +95,13 @@
     width: 150px;
 }
 
-.header
+.skillHeader
 {
     justify-content: center;
     vertical-align: middle;
 
     height: 10vh;
-    padding-bottom: 5%;
+    padding-bottom: 5vh;
 
     font-size: 32px;
 }
