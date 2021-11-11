@@ -1,3 +1,8 @@
+*
+{
+    color: #EDF2F4;
+}
+
 .imageBox
 {
     position: relative;
@@ -30,11 +35,15 @@
 .overlay h2
 {
     padding-top: 5%;
+
+    color: #EDF2F4;
 }
 
 .overlay p
 {
     padding: 5%;
+
+    color: #EDF2F4;
 }
 
 .workLink:link

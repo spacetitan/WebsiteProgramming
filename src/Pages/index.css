@@ -9,7 +9,7 @@
 {
     margin: auto;
     padding: auto;
-    height: 100vh;
+    height: 80vh;
     width: 60%;
     font-family: Arial, Helvetica, sans-serif;
 	font-size: 24px;
@@ -31,25 +31,30 @@
 .body
 {
     height: 350vh;
+    width: 100%;
     background-color: #540B0E;
     color: #EDF2F4;
 }
 
-.headerContainer
-{
-    height: 60vh;
-    background-color: #540B0E;
-}
-
 .bodyHeader
 {
-    padding-top: 20vh;
+    height: 10vh;
+    width: 45%;
+
+    margin: auto;
+    padding-top: 50px;
+
+    color: #EDF2F4;
 }
 
 .bodyDescription
 {
-    margin: 10vh auto 10vh auto;
+    height: 20vh;
     width: 45%;
+
+    margin: auto;
+
+    color: #EDF2F4;
 }
 
 .skillbackground

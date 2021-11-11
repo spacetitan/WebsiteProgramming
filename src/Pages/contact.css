@@ -1,0 +1,183 @@
+*
+{
+    margin:auto;
+
+    color: #0C1821;
+}
+
+.formBackground
+{
+    height: 90vh;
+    width: 100%;
+
+    margin: auto;
+    padding-top: 10vh;
+
+    background-color: #540B0E;
+}
+
+.formContainer
+{
+    height: 90%;
+    width: 60%;
+
+    margin: auto;
+
+    border: 1vh;
+    border-radius: 1vh;
+
+    background-color: #EDF2F4;
+}
+
+.contactForm
+{
+    height: 100%;
+
+    margin-left: 10vh;
+}
+
+.idContainer
+{
+    height: 5%;
+    width: 65%;
+
+    margin: auto;
+
+    padding-top: 10vh;
+}
+
+.leftContainer
+{
+    float: left;
+
+    height: 100%;
+    width: 50%;
+}
+
+.nameLabel
+{
+    float: left;
+
+    font-size: 24px;
+}
+
+.nameInput
+{
+    float: left;
+
+    margin-top: 1vh;
+    padding-left: 10px;
+    text-align: left;
+
+    width: 35%;
+    height: 3vh;
+}
+
+.rightContainer
+{
+    float: right;
+
+    height: 100%;
+    width: 50%;
+}
+
+.emailLabel
+{
+    float: left;
+
+    font-size: 24px;
+}
+
+.emailInput
+{
+    margin-top: 1vh;
+    padding-left: 10px;
+    text-align: left;
+
+    width: 35%;
+    height: 3vh;
+}
+
+.subjectContainer
+{
+    margin: auto;
+    margin-top: 7vh;
+
+    height: 15%;
+    width: 65%;
+}
+
+.subjectLabelContainer
+{
+    float: left;
+
+    width: 100%;
+}
+
+.subjectLabel
+{
+    float: left;
+
+    font-size: 24px;
+}
+
+.subjectInput
+{
+    float: left;
+
+    margin-top: 1vh;
+    padding-left: 10px;
+    text-align: left;
+
+    width: 85%;
+    height: 3vh;
+}
+
+.messegeContainer
+{
+    margin: auto;
+
+    height: 45%;
+    width: 65%;
+}
+
+.messegeLabelContainer
+{
+    float: left;
+
+    width: 100%;
+}
+
+.messegeLabel
+{
+    float: left;
+
+    font-size: 24px;
+}
+
+.messageInput
+{
+    float: left;
+
+    margin-top: 1vh;
+    padding-top: 2vh;
+    padding-left: 10px;
+    text-align: left;
+
+    width: 85%;
+    height: 25vh;
+}
+
+.buttonContainer
+{
+    height: 15%;
+    width: 100%;
+}
+
+.submitButton
+{
+    height: 5vh;
+    width: 10vh;
+
+    margin-right: 10vh;
+}

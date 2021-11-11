@@ -25,113 +25,113 @@ return (
 		</div>
 
 		<body className='body'>
-		<div className="headerContainer">
-			<h1 className="bodyHeader">
-				Benjamin Navarro
-			</h1>
+			<div>
+				<h1 className="bodyHeader">
+					Benjamin Navarro
+				</h1>
 
-			<p className="bodyDescription">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
-		</div>
+				<p className="bodyDescription">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
 
-		<div className="skillbackground">
-			<div className="skillContainer">
-				<div className="skillCard">
-					<img className="skillImage" src="./Images/tempImage.png" alt="" />
-					
-					<div className="skillHeader">
-						<h2>Front End Game Developer</h2>
+			<div className="skillbackground">
+				<div className="skillContainer">
+					<div className="skillCard">
+						<img className="skillImage" src="./Images/tempImage.png" alt="" />
+						
+						<div className="skillHeader">
+							<h2>Front End Game Developer</h2>
+						</div>
+						
+
+						<p className="experienceBlock">
+							3 years industry experience with Unity Engine and experience porting projects from Unreal Engine to consoles. 
+							Specialized in UI/UX programming, optimization, and implementation as well as general systems programming and some Backend Development. 
+						</p>
+
+						<h3>Related Languages</h3>
+
+						<p className="skillsBlock">C#, C++, Java</p>
+
+						<h3>Tools</h3>
+
+						<li>Git</li>
+						<li>GitHub</li>
+						<li>GitLab</li>
+						<li>PlasticSCM</li>
+						<li>Scriptable Object</li>
+						<li>Visual Studios</li>
+						<li>Jira</li>
+						<li>Slack</li>
+
 					</div>
-					
 
-					<p className="experienceBlock">
-						3 years industry experience with Unity Engine and experience porting projects from Unreal Engine to consoles. 
-						Specialized in UI/UX programming, optimization, and implementation as well as general systems programming and some Backend Development. 
-					</p>
+					<VertDivider />
 
-					<h3>Related Languages</h3>
+					<div className="skillCard">
+						<img className="skillImage" src="./Images/tempImage.png" alt="" />
 
-					<p className="skillsBlock">C#, C++, Java</p>
+						<div className="skillHeader">
+							<h2>Full Stack Web Developer</h2>
+						</div>
+						
+						<p className="experienceBlock">
+							Experienced with multiple JS Libraries including React, multiple years industy experience with UI/UX implementation and programming.
+						</p>
 
-					<h3>Tools</h3>
+						<h3>Related Languages</h3>
 
-					<li>Git</li>
-					<li>GitHub</li>
-					<li>GitLab</li>
-					<li>PlasticSCM</li>
-					<li>Scriptable Object</li>
-					<li>Visual Studios</li>
-					<li>Jira</li>
-					<li>Slack</li>
+						<p className="skillsBlock">
+							Javascript, HTML, CSS, PHP
+						</p>
 
-				</div>
+						<h3>Libraries and Tools</h3>
 
-				<VertDivider />
-
-				<div className="skillCard">
-					<img className="skillImage" src="./Images/tempImage.png" alt="" />
-
-					<div className="skillHeader">
-						<h2>Full Stack Web Developer</h2>
+						<li>React.js</li>
+						<li>Node.js</li>
+						<li>Angular.js</li>
+						<li>Wordpress</li>
+						<li>Visual Studio Code</li>
+						<li>Git</li>
 					</div>
-					
-					<p className="experienceBlock">
-						Experienced with multiple JS Libraries including React, multiple years industy experience with UI/UX implementation and programming.
-					</p>
 
-					<h3>Related Languages</h3>
+					<VertDivider />
 
-					<p className="skillsBlock">
-						Javascript, HTML, CSS, PHP
-					</p>
+					<div className="skillCard">	
+						<img className="skillImage" src="./Images/tempImage.png" alt="" />
 
-					<h3>Libraries and Tools</h3>
+						<div className="skillHeader">
+							<h2>Tarot Card Reader</h2>
+						</div>
+						
 
-					<li>React.js</li>
-					<li>Node.js</li>
-					<li>Angular.js</li>
-					<li>Wordpress</li>
-					<li>Visual Studio Code</li>
-					<li>Git</li>
-				</div>
+						<p className="experienceBlock">
+							6 years experience reading cards and fortune for many who are skeptical or interested in many different enviroments. 
+							Learned to read Tarot Cards in Florence, Italy among other Readers.
+						</p>
 
-				<VertDivider />
+						<h3>Related Skill</h3>
 
-				<div className="skillCard">	
-					<img className="skillImage" src="./Images/tempImage.png" alt="" />
+						<p className="skillsBlock">
+							Created fotrune teller persona "Madame Universe" to immerse myself into the role. Madame Universe connects with "The Stars" to tell your fortune.
+						</p>
 
-					<div className="skillHeader">
-						<h2>Tarot Card Reader</h2>
+						<h3>Tools</h3>
+
+						<li>Tarot Deck</li>
+						<li>The Stars</li>
+						<li>Hopefully a fog machine</li>
+						<li>Silk scarf</li>
+						<li>Alcohol</li>
 					</div>
-					
-
-					<p className="experienceBlock">
-						6 years experience reading cards and fortune for many who are skeptical or interested in many different enviroments. 
-						Learned to read Tarot Cards in Florence, Italy among other Readers.
-					</p>
-
-					<h3>Related Skill</h3>
-
-					<p className="skillsBlock">
-						Created fotrune teller persona "Madame Universe" to immerse myself into the role. Madame Universe connects with "The Stars" to tell your fortune.
-					</p>
-
-					<h3>Tools</h3>
-
-					<li>Tarot Deck</li>
-					<li>The Stars</li>
-					<li>Hopefully a fog machine</li>
-					<li>Silk scarf</li>
-					<li>Alcohol</li>
 				</div>
 			</div>
-		</div>
 			
 			<div className="previousWorkContainer">
 				<h1>Previous Works</h1>
