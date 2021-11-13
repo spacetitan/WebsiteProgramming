@@ -17,6 +17,12 @@ return (
 				<div className="formContainer">
 					{/* <form action="" className="contactForm" onSubmit={this.handleSubmit.bind(this)} method="POST"> */}
 					<form action="" className="contactForm">
+						<div className="descriptionContainer">
+							<p className="descriptionText">
+								Thanks for taking the time to reach out. How can I help you today?
+							</p>
+						</div>
+
 						<div className="idContainer">
 							<div className="leftContainer">
 								<label htmlFor="name" className="nameLabel">Name</label>
@@ -48,7 +54,7 @@ return (
 						</div>
 						
 						<div className="buttonContainer">
-							<button type="submit" className="submitButton" >Send</button>
+							<button type="submit" className="submitButton" >Submit</button>
 						</div>
 					</form>
 				</div>

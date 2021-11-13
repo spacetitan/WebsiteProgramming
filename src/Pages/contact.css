@@ -7,7 +7,7 @@
 
 .formBackground
 {
-    height: 90vh;
+    height: 110vh;
     width: 100%;
 
     margin: auto;
@@ -36,14 +36,30 @@
     margin-left: 10vh;
 }
 
+.descriptionContainer
+{
+    height: 15%;
+    width: 65%;
+
+    margin: auto;
+    margin-left: 15vh;
+    padding-top: 5vh;
+}
+
+.descriptionText
+{
+    text-align: center;
+    justify-content: left;
+
+    font-size: 32px;
+}
+
 .idContainer
 {
     height: 5%;
     width: 65%;
 
     margin: auto;
-
-    padding-top: 10vh;
 }
 
 .leftContainer
@@ -103,7 +119,7 @@
     margin: auto;
     margin-top: 7vh;
 
-    height: 15%;
+    height: 10%;
     width: 65%;
 }
 
@@ -137,7 +153,7 @@
 {
     margin: auto;
 
-    height: 45%;
+    height: 38%;
     width: 65%;
 }
 
@@ -166,11 +182,17 @@
 
     width: 85%;
     height: 25vh;
+
+    min-width: 85%;
+    max-width: 85%;
+
+    min-height: 25vh;
+    max-height: 30vh;
 }
 
 .buttonContainer
 {
-    height: 15%;
+    height: 10%;
     width: 100%;
 }
 

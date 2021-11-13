@@ -14,36 +14,31 @@ return (
 			</h1>
 			
 			<p className="subHeader">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				3 years industry experienced Software Engineer and  Game Developer specializing in UI/UX programming and implementation.
 			</p>
 
 			<div>
-				<img src="./Images/tempImage.png" alt="" />
+				<img src="./Images/tempImage.png" alt="" className="indexHeaderImage"/>
 			</div>
 		</div>
 
 		<body className='body'>
 			<div>
 				<h1 className="bodyHeader">
-					Benjamin Navarro
+					Ben says hi.
 				</h1>
 
 				<p className="bodyDescription">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					In my years in the industry I've found a passion for UI/UX development. 
+					I have worked in a variety of environments with different Task Management and Source Control software while being remote or in an office. 
+					I am adaptable and diligent in my work either solo or with a team. 
 				</p>
 			</div>
 
 			<div className="skillbackground">
 				<div className="skillContainer">
 					<div className="skillCard">
-						<img className="skillImage" src="./Images/tempImage.png" alt="" />
+						<img className="skillImage" src="./Images/GEImage.png" alt="" />
 						
 						<div className="skillHeader">
 							<h2>Front End Game Developer</h2>
@@ -75,7 +70,7 @@ return (
 					<VertDivider />
 
 					<div className="skillCard">
-						<img className="skillImage" src="./Images/tempImage.png" alt="" />
+						<img className="skillImage" src="./Images/WDImage.png" alt="" />
 
 						<div className="skillHeader">
 							<h2>Full Stack Web Developer</h2>
@@ -104,7 +99,7 @@ return (
 					<VertDivider />
 
 					<div className="skillCard">	
-						<img className="skillImage" src="./Images/tempImage.png" alt="" />
+						<img className="skillImage" src="./Images/MUImage.png" alt="" />
 
 						<div className="skillHeader">
 							<h2>Tarot Card Reader</h2>

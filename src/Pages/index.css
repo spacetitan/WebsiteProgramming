@@ -25,7 +25,12 @@
 
 .subHeader
 {
-    padding: 10vh;
+    padding: 5vh;
+}
+
+.indexHeaderImage
+{
+    margin-top: 5vh;
 }
 
 .body
@@ -49,7 +54,7 @@
 
 .bodyDescription
 {
-    height: 20vh;
+    height: 15vh;
     width: 45%;
 
     margin: auto;
