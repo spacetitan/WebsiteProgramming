@@ -1,9 +1,9 @@
 import React from 'react';
-import './template.css';
+import './FullSwingLaunchMonitor.css';
 
 import Footer from '../../Components/Footer/Footer';
 
-function template() {
+function FullSwingLaunchMonitor() {
 return (
 <>
     <header>
@@ -43,5 +43,5 @@ return (
 </>
 );}
 
-export default template;
+export default FullSwingLaunchMonitor;
 

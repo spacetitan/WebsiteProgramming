@@ -1,9 +1,9 @@
 import React from 'react';
-import './template.css';
+import './OsirisNewDawn.css';
 
 import Footer from '../../Components/Footer/Footer';
 
-function template() {
+function OsirisNewDawn() {
 return (
 <>
     <header>
@@ -43,5 +43,5 @@ return (
 </>
 );}
 
-export default template;
+export default OsirisNewDawn;
 

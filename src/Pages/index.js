@@ -138,7 +138,7 @@ return (
 							body="Worked on processing and tweaking satellite data to create terrain for courses, UI/UX implementation, parsing camera data for replay, and general programming."
 							linkText="Check it out there website"
 							link="https://www.fullswinggolf.com/golf-simulator/"
-							imageLink="./Images/FullSwingGolfSimulator.jpg"
+							imageLink="./Images/Projects/FullSwingGolfSimulator.jpg"
 						/>
 					</div>
 
@@ -148,7 +148,7 @@ return (
 							body="Implemented UI/UX for general navigation and to display data recieved from sensor on phone application."
 							linkText="Check it out there website"
 							link="https://www.fullswinggolf.com/kit-launch-monitor/"
-							imageLink="./Images/Launch Monitor.jpg"
+							imageLink="./Images/Projects/Launch Monitor.jpg"
 						/>
 					</div>
 
@@ -158,7 +158,7 @@ return (
 							body="Worked on restructuring existing engine to work with new rules, and assets. Also worked on implementing UI/UX and VFX as well as a lot of bug fixing caused by issues with oudated engine."
 							linkText="Check it out on the Google appstore"
 							link="https://play.google.com/store/apps/details?id=com.PokerGO.Holdem&hl=en_US&gl=US"
-							imageLink="./Images/PokerGOHoldEm.png"
+							imageLink="./Images/Projects/PokerGOHoldEm.png"
 						/>
 					</div>
 
@@ -168,7 +168,7 @@ return (
 							body="Focused on fixing game breaking issues after core system restructuring, new system additions and new asset introductions."
 							linkText="Check it out on Steam"
 							link="https://store.steampowered.com/app/402710/Osiris_New_Dawn/"
-							imageLink="./Images/OsirisNewDawn.jpg"
+							imageLink="./Images/Projects/OsirisNewDawn.jpg"
 						/>
 					</div>
 
@@ -178,7 +178,7 @@ return (
 							body="Worked on restructuring UI/UX for Controller support. Also worked on fulfilling requirement needed for console release."
 							linkText="Check it out on Steam"
 							link="https://store.steampowered.com/app/764050/Maelstrom/"
-							imageLink="./Images/Maelstrom.jpg"
+							imageLink="./Images/Projects/Maelstrom.jpg"
 						/>
 					</div>
 				</div>

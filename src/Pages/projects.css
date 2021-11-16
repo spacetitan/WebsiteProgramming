@@ -9,18 +9,75 @@
 
 .projectHeader
 {
+    width: 65%;
+
+    margin: auto;
     margin-bottom: 1vh;
     padding: 1vh;
 }
 
-.projectsBackground
+.releasedProjectsHeader
+{
+    height: 5vh;
+    margin: auto;
+    padding-top: 10vh;
+    text-align: center;
+}
+
+.releasedProjectsHeader h1
+{
+    color: #EDF2F4;
+}
+
+.releasedProjectsBackground
 {
     background-color: #540B0E;
 
     padding: 1vh;
 }
 
-.projectsContainer
+.releasedProjectsContainer
+{
+    background-color: #EDF2F4;
+
+    margin: auto;
+    margin-top: 3vh;
+    padding: 2vh;
+    width: 95%;
+
+    border: 1vh;
+    border-radius: 1vh;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-auto-rows: minmax(300px, auto);
+    grid-gap: 1em;
+}
+
+.personalProjectsBackground
+{
+    background-color: #540B0E;
+
+    padding: 1vh;
+}
+
+.personalProjectsHeader
+{
+    height: 5vh;
+    margin: auto;
+    padding-top: 10vh;
+    text-align: center;
+}
+
+.personalProjectsHeader h1
+{
+    color: #EDF2F4;
+}
+
+.personalProjectsContainer
 {
     background-color: #EDF2F4;
 

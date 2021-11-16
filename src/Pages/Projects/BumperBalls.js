@@ -1,9 +1,9 @@
 import React from 'react';
-import './template.css';
+import './BumperBalls.css';
 
 import Footer from '../../Components/Footer/Footer';
 
-function template() {
+function BumperBalls() {
 return (
 <>
     <header>
@@ -43,5 +43,5 @@ return (
 </>
 );}
 
-export default template;
+export default BumperBalls;
 
