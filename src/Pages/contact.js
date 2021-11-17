@@ -7,54 +7,54 @@ const Contact = () => {
 return (
 	<>
 		<header>
-			<div className="contactHeader">
-
+			<div className="contact-headerContainer">
+				<h1 className="contact-header">Contact</h1>
 			</div>
 		</header>
 
 		<body>
-			<div className="formBackground">
-				<div className="formContainer">
-					{/* <form action="" className="contactForm" onSubmit={this.handleSubmit.bind(this)} method="POST"> */}
-					<form action="" className="contactForm">
-						<div className="descriptionContainer">
-							<p className="descriptionText">
+			<div className="contact-formBackground">
+				<div className="contact-formContainer">
+					{/* <form action="" className="contact-contactForm" onSubmit={this.handleSubmit.bind(this)} method="POST"> */}
+					<form action="" className="contact-contactForm">
+						<div className="contact-descriptionContainer">
+							<p className="contact-descriptionText">
 								Thanks for taking the time to reach out. How can I help you today?
 							</p>
 						</div>
 
-						<div className="idContainer">
-							<div className="leftContainer">
-								<label htmlFor="name" className="nameLabel">Name</label>
+						<div className="contact-idContainer">
+							<div className="contact-leftContainer">
+								<label htmlFor="name" className="contact-nameLabel">Name</label>
 							</div>
 
-							<div className="rightContainer">
-								<label htmlFor="email" className="emailLabel">Email</label>
+							<div className="contact-rightContainer">
+								<label htmlFor="email" className="contact-emailLabel">Email</label>
 							</div>
 
-							<input type="text" className="nameInput" />
-							<input type="email" className="emailInput" />
+							<input type="text" className="contact-nameInput" />
+							<input type="email" className="contact-emailInput" />
 						</div>
 
-						<div className="subjectContainer">
-							<div className="subjectLabelContainer">
-								<label htmlFor="subject" className="subjectLabel">Subject</label>
+						<div className="contact-subjectContainer">
+							<div className="contact-subjectLabelContainer">
+								<label htmlFor="subject" className="contact-subjectLabel">Subject</label>
 							</div>
 							
-							<input type="text" className="subjectInput" />
+							<input type="text" className="contact-subjectInput" />
 						</div>
 
 
-						<div className="messegeContainer">
-							<div className="messegeLabelContainer">
-								<label htmlFor="message" className="messegeLabel">Message</label>
+						<div className="contact-messegeContainer">
+							<div className="contact-messegeLabelContainer">
+								<label htmlFor="message" className="contact-messegeLabel">Message</label>
 							</div>
 
-							<textarea name="" id="" cols="30" rows="10" className="messageInput"></textarea>
+							<textarea name="" id="" cols="30" rows="10" className="contact-messageInput"></textarea>
 						</div>
 						
-						<div className="buttonContainer">
-							<button type="submit" className="submitButton" >Submit</button>
+						<div className="contact-buttonContainer">
+							<button type="submit" className="contact-submitButton" >Submit</button>
 						</div>
 					</form>
 				</div>

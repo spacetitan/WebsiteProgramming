@@ -11,16 +11,16 @@ const PortfolioCards = ({title, body, linkText, link, imageLink}) =>
     const checkImage = imageLink == null ? "./Images/tempImage.png" : imageLink;
 
 return(
-    <div className="imageBox">
-        <img src={checkImage} alt="" className="workImage" />
+    <div className="portfolioCard-imageBox">
+        <img src={checkImage} alt="" className="portfolioCard-workImage" />
 
-        <div className="overlay">
+        <div className="portfolioCard-overlay">
             <h2>{checkTitle}</h2>
 
             <p>{checkBody}</p>
 
-            <Link to={checkLink} className="workLink">
-                <button className="linkButton">{checkLinkText}</button>
+            <Link to={checkLink} className="portfolioCard-link">
+                <button className="portfolioCard-button">{checkLinkText}</button>
             </Link>
             
         </div>

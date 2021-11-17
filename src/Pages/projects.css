@@ -7,8 +7,9 @@
     color: #0C1821;
 }
 
-.projectHeader
+.portfolio-header
 {
+    height: 20vh;
     width: 65%;
 
     margin: auto;
@@ -16,7 +17,17 @@
     padding: 1vh;
 }
 
-.releasedProjectsHeader
+.portfolio-headerText
+{
+
+}
+
+.portfolio-subHeader
+{
+    
+}
+
+.portfolio-releasedProjectsHeader
 {
     height: 5vh;
     margin: auto;
@@ -24,19 +35,19 @@
     text-align: center;
 }
 
-.releasedProjectsHeader h1
+.portfolio-releasedProjectsHeader h1
 {
     color: #EDF2F4;
 }
 
-.releasedProjectsBackground
+.portfolio-releasedProjectsBackground
 {
     background-color: #540B0E;
 
     padding: 1vh;
 }
 
-.releasedProjectsContainer
+.portfolio-releasedProjectsContainer
 {
     background-color: #EDF2F4;
 
@@ -57,14 +68,14 @@
     grid-gap: 1em;
 }
 
-.personalProjectsBackground
+.portfolio-personalProjectsBackground
 {
     background-color: #540B0E;
 
     padding: 1vh;
 }
 
-.personalProjectsHeader
+.portfolio-personalProjectsHeader
 {
     height: 5vh;
     margin: auto;
@@ -72,12 +83,12 @@
     text-align: center;
 }
 
-.personalProjectsHeader h1
+.portfolio-personalProjectsHeader h1
 {
     color: #EDF2F4;
 }
 
-.personalProjectsContainer
+.portfolio-personalProjectsContainer
 {
     background-color: #EDF2F4;
 
@@ -98,7 +109,7 @@
     grid-gap: 1em;
 }
 
-.cardContainer
+.portfolio-cardContainer
 {
     height: 300px;
     width: 100%;

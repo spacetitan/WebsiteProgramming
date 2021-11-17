@@ -7,23 +7,23 @@ function template() {
 return (
 <>
     <header>
-        <div className="headerContainer">
+        <div className="template-headerContainer">
             <h1>Portfolio</h1>
        </div>
     </header>
    
     <body>
-        <div className="bodybackground">
-            <div className="bodyContainer">
-                <div className="leftBox">
-                    <img src="./Images/tempImage.png" alt="" className="projectImage" />
+        <div className="template-bodybackground">
+            <div className="template-bodyContainer">
+                <div className="template-leftBox">
+                    <img src="./Images/tempImage.png" alt="" className="template-projectImage" />
                 </div>
 
-                <div className="rightBox">
-                    <h1 className="projectTitle">Title</h1>
+                <div className="template-rightBox">
+                    <h1 className="template-projectTitle">Title</h1>
 
-                    <h2 className="descriptionTitle">Description</h2>
-                    <p className="projectDescription">
+                    <h2 className="template-descriptionTitle">Description</h2>
+                    <p className="template-projectDescription">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -32,8 +32,8 @@ return (
                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
                     
-                    <h2 className="linkTitle">Link</h2>
-                    <a href="" className="link">Link</a>
+                    <h2 className="template-linkTitle">Link</h2>
+                    <a href="" className="template-link">Link</a>
                 </div>
             </div>
         </div>

@@ -7,10 +7,10 @@ import PortfolioCards from '../Components/Images/PortfolioCards/PortfolioCards';
 const Projects = () => {
 return (
 	<>
-		<div className="projectHeader">
-			<h1 className="headerText">Portfolio</h1>
+		<div className="portfolio-header">
+			<h1 className="portfolio-headerText">Portfolio</h1>
 
-			<p className="subHeader">
+			<p className="portfolio-subHeader">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -21,14 +21,14 @@ return (
 		</div>
 
 		<body>
-			<div className="releasedProjectsBackground">
+			<div className="portfolio-releasedProjectsBackground">
 				
-				<div className="releasedProjectsHeader">
+				<div className="portfolio-releasedProjectsHeader">
 					<h1>Released Projects</h1>
 				</div>
 
-				<div className="releasedProjectsContainer">
-					{/* <div className="cardContainer">
+				<div className="portfolio-releasedProjectsContainer">
+					{/* <div className="portfolio-cardContainer">
 						<PortfolioCards 
 							title = "Template"
 							body = "This is a template"
@@ -38,7 +38,7 @@ return (
 						/>
 					</div> */}
 
-					<div className="cardContainer">
+					<div className="portfolio-cardContainer">
 						<PortfolioCards 
 							title = "Full Swing Golf Simulator"
 							body = "Worked on processing and tweaking satellite data to create terrain for courses, UI/UX implementation, parsing camera data for replay, and general programming."
@@ -48,7 +48,7 @@ return (
 						/>
 					</div>
 
-					<div className="cardContainer">
+					<div className="portfolio-cardContainer">
 						<PortfolioCards 
 							title = "Full Swing Launch Monitor"
 							body = "Implemented UI/UX for general navigation and to display data recieved from sensor on phone application."
@@ -58,7 +58,7 @@ return (
 						/>
 					</div>
 
-					<div className="cardContainer">
+					<div className="portfolio-cardContainer">
 						<PortfolioCards 
 							title = "PokerGo Holdem"
 							body = "Worked on restructuring existing engine to work with new rules, and assets. Also worked on implementing UI/UX and VFX as well as a lot of bug fixing caused by issues with oudated engine."
@@ -68,7 +68,7 @@ return (
 						/>
 					</div>
 
-					<div className="cardContainer">
+					<div className="portfolio-cardContainer">
 						<PortfolioCards 
 							title = "Osiris New Dawn"
 							body = "Focused on fixing game breaking issues after core system restructuring, new system additions and new asset introductions."
@@ -78,7 +78,7 @@ return (
 						/>
 					</div>
 
-					<div className="cardContainer">
+					<div className="portfolio-cardContainer">
 						<PortfolioCards 
 							title = "Maelstrom"
 							body = "Worked on restructuring UI/UX for Controller support. Also worked on fulfilling requirement needed for console release."
@@ -89,15 +89,15 @@ return (
 					</div>
 				</div>
 			</div>
-			<div className="personalProjectsBackground">
+			<div className="portfolio-personalProjectsBackground">
 
-				<div className="personalProjectsHeader">
+				<div className="portfolio-personalProjectsHeader">
 					<h1>Personal Projects</h1>
 				</div>
 
-				<div className="personalProjectsContainer">
+				<div className="portfolio-personalProjectsContainer">
 
-					{/* <div className="cardContainer">
+					{/* <div className="portfolio-cardContainer">
 						<PortfolioCards 
 							title = "Template"
 							body = "This is a template"
@@ -107,7 +107,7 @@ return (
 						/>
 					</div> */}
 
-					<div className="cardContainer">
+					<div className="portfolio-cardContainer">
 						<PortfolioCards 
 							title = "TPMS"
 							body = "a third person mech shooter that is unamed with switchable loadouts that I have been working on off and on for years."
@@ -117,7 +117,7 @@ return (
 						/>
 					</div>
 
-					<div className="cardContainer">
+					<div className="portfolio-cardContainer">
 						<PortfolioCards 
 							title = "FPPCH"
 							body = "A first person point and click horror game where everything moves when you do"
@@ -127,7 +127,7 @@ return (
 						/>
 					</div>
 
-					<div className="cardContainer">
+					<div className="portfolio-cardContainer">
 						<PortfolioCards 
 							title = "Bumper Balls - Minigames project"
 							body = "a simple minigame in which you try to push simple AIs off a platform."
@@ -137,7 +137,7 @@ return (
 						/>
 					</div>
 
-					<div className="cardContainer">
+					<div className="portfolio-cardContainer">
 						<PortfolioCards 
 							title = "Cowboy Shooter - Minigames Project"
 							body = "A simple shooter where you only have one bullet."

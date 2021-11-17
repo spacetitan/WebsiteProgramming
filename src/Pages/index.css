@@ -5,7 +5,7 @@
     text-align: center;
 }
 
-.indexHeader
+.index-header
 {
     margin: auto;
     padding: auto;
@@ -18,22 +18,22 @@
     background-color: #EDF2F4;
 }
 
-.headerText
+.index-headerText
 {
     padding-top: 10vh;
 }
 
-.subHeader
+.index-subHeader
 {
     padding: 5vh;
 }
 
-.indexHeaderImage
+.index-indexHeaderImage
 {
     margin-top: 5vh;
 }
 
-.body
+.index-body
 {
     height: 340vh;
     width: 100%;
@@ -41,7 +41,7 @@
     color: #EDF2F4;
 }
 
-.bodyHeader
+.index-bodyHeader
 {
     height: 10vh;
     width: 45%;
@@ -52,7 +52,7 @@
     color: #EDF2F4;
 }
 
-.bodyDescription
+.index-bodyDescription
 {
     height: 15vh;
     width: 45%;
@@ -62,13 +62,13 @@
     color: #EDF2F4;
 }
 
-.skillbackground
+.index-skillbackground
 {
     background-color: #540B0E;
     height: 150vh;
 }
 
-.skillContainer
+.index-skillContainer
 {
     background-color: #EDF2F4;
     display: flex;
@@ -81,7 +81,7 @@
     border-radius: 1vh;
 }
 
-.skillCard
+.index-skillCard
 {
     margin-top: 15px;
     padding: 3%;
@@ -96,7 +96,7 @@
     border-radius: 1vh;
 }
 
-.skillImage
+.index-skillImage
 {
     margin: auto;
 
@@ -105,7 +105,7 @@
     width: 150px;
 }
 
-.skillHeader
+.index-skillHeader
 {
     justify-content: center;
     vertical-align: middle;
@@ -116,14 +116,14 @@
     font-size: 32px;
 }
 
-.skillCard h3
+.index-skillCard h3
 {
     padding-bottom: 5%;
 
     color: #540B0E;
 }
 
-.skillCard p
+.index-skillCard p
 {
     padding-bottom: 5vh;
 
@@ -131,17 +131,17 @@
     font-weight: lighter;
 }
 
-.experienceBlock
+.index-experienceBlock
 {
     height: 15vh;
 }
 
-.skillsBlock
+.index-skillsBlock
 {
     height: 8vh;
 }
 
-.skillCard li
+.index-skillCard li
 {
     list-style: none;
     padding-bottom: 1vh;
@@ -150,21 +150,21 @@
     font-weight: lighter;
 }
 
-.previousWorkContainer
+.index-previousWorkContainer
 {
     color: #0C1821;
     background-color: #EDF2F4;
 
-    height: 115vh;
+    height: 110vh;
 }
 
-.previousWorkContainer h1
+.index-previousWorkContainer h1
 {
     padding-top: 5vh;
     padding-bottom: 3vh;
 }
 
-.worksContainer
+.index-worksContainer
 {
     display: flex;
     flex-wrap: wrap;
@@ -174,11 +174,10 @@
     width: 85%;
 }
 
-.workCard
+.index-workCard
 {
     float: left;
     margin: auto;
-    padding-bottom: 5vh;
 
     height: 300px;
     width: 500px;
@@ -186,3 +185,38 @@
     border-radius: 1vh;
 }
 
+.index-detailsButtonContainer
+{
+    height: 75px;
+    width: 100%;
+}
+
+.index-moreDetailsButton
+{
+    background-color: #EDF2F4;
+    border-color: #540B0E;
+
+    float: right;
+
+    height: 60px;
+    width: 275px;
+
+    border: 3px solid #540B0E;
+    border-radius: 1vh;
+    transition-duration: 0.index-4s;
+
+    margin: auto;
+}
+
+.index-moreDetailsButton:hover
+{
+    background-color: #8D99AE;
+}
+
+.index-moreDetailsLink
+{
+    color: #540B0E;
+
+    font-size: 18px;
+    text-decoration: none;
+}

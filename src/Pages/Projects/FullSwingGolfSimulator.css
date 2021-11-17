@@ -6,14 +6,14 @@
     color: #0C1821;
 }
 
-.headerContainer
+.FSGS-headerContainer
 {
     background-color: #EDF2F4;
 
     height: 15vh;
 }
 
-.bodybackground
+.FSGS-bodybackground
 {
     background-color: #540B0E;
 
@@ -22,7 +22,7 @@
     padding: 5vh;
 }
 
-.bodyContainer
+.FSGS-bodyContainer
 {
     background-color: #EDF2F4;
 
@@ -36,70 +36,107 @@
     border-radius: 1vh;
 }
 
-.leftBox
+.FSGS-leftBox
 {
     float: left;
 
     height: 100%;
-    width: 30%;
+    width: 40%;
 
     border: 1vh;
     border-radius: 1vh;
-}
-
-.projectImage
-{
-    height: 400px;
-    width: 400px;
 
     margin: auto;
-    margin-top: 5vh;
 }
 
-.rightBox
+.FSGS-imageBox
+{
+    height: 80%;
+    width: 80%;
+    overflow: hidden;
+
+    padding-top: 7%;
+}
+
+.FSGS-projectImage
+{
+    position:relative;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: auto;
+}
+
+.FSGS-rightBox
 {
     float: right;
 
     height: 100%;
-    width: 70%;
+    width: 60%;
 
     border: 1vh;
     border-radius: 1vh;
 }
 
-.projectTitle
+.FSGS-projectTitle
 {
     padding-top: 5vh;
 
     text-align: left;
+
+    font-size: 32px;
 }
 
-.descriptionTitle
+.FSGS-descriptionTitle
 {
     padding-top: 5vh;
 
     text-align: left;
+
+    font-size: 24px;
 }
 
-.projectDescription
+.FSGS-projectDescription
 {
     padding-top: 1vh;
 
     text-align: left;
     margin-right: 10%;
+
+    font-size: 18px;
 }
 
-.linkTitle
+.FSGS-linkTitle
 {
     padding-top: 5vh;
 
     text-align: left;
+
+    font-size: 24px;
 }
 
-.link
+.FSGS-link
 {
-    padding-top: 1vh;
-
     float: left;
     margin-left: 0;
+
+    font-size: 24px;
+    text-align: left;
+}
+
+.FSGS-linkDiv
+{
+    height: 4vh;
+    width: 30%;
+
+    margin: auto;
+    margin-left: 0;
+}
+
+.FSGS-or
+{
+    font-size: 22px;
+    text-align: left;
 }

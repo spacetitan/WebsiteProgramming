@@ -5,7 +5,17 @@
     color: #0C1821;
 }
 
-.formBackground
+.contact-headerContainer
+{
+
+}
+
+.contact-header
+{
+
+}
+
+.contact-formBackground
 {
     height: 110vh;
     width: 100%;
@@ -16,7 +26,7 @@
     background-color: #540B0E;
 }
 
-.formContainer
+.contact-formContainer
 {
     height: 90%;
     width: 60%;
@@ -29,14 +39,14 @@
     background-color: #EDF2F4;
 }
 
-.contactForm
+.contact-contactForm
 {
     height: 100%;
 
     margin-left: 10vh;
 }
 
-.descriptionContainer
+.contact-descriptionContainer
 {
     height: 15%;
     width: 65%;
@@ -46,7 +56,7 @@
     padding-top: 5vh;
 }
 
-.descriptionText
+.contact-descriptionText
 {
     text-align: center;
     justify-content: left;
@@ -54,7 +64,7 @@
     font-size: 32px;
 }
 
-.idContainer
+.contact-idContainer
 {
     height: 5%;
     width: 65%;
@@ -62,7 +72,7 @@
     margin: auto;
 }
 
-.leftContainer
+.contact-leftContainer
 {
     float: left;
 
@@ -70,14 +80,14 @@
     width: 50%;
 }
 
-.nameLabel
+.contact-nameLabel
 {
     float: left;
 
     font-size: 24px;
 }
 
-.nameInput
+.contact-nameInput
 {
     float: left;
 
@@ -89,7 +99,7 @@
     height: 3vh;
 }
 
-.rightContainer
+.contact-rightContainer
 {
     float: right;
 
@@ -97,14 +107,14 @@
     width: 50%;
 }
 
-.emailLabel
+.contact-emailLabel
 {
     float: left;
 
     font-size: 24px;
 }
 
-.emailInput
+.contact-emailInput
 {
     margin-top: 1vh;
     padding-left: 10px;
@@ -114,7 +124,7 @@
     height: 3vh;
 }
 
-.subjectContainer
+.contact-subjectContainer
 {
     margin: auto;
     margin-top: 7vh;
@@ -123,21 +133,21 @@
     width: 65%;
 }
 
-.subjectLabelContainer
+.contact-subjectLabelContainer
 {
     float: left;
 
     width: 100%;
 }
 
-.subjectLabel
+.contact-subjectLabel
 {
     float: left;
 
     font-size: 24px;
 }
 
-.subjectInput
+.contact-subjectInput
 {
     float: left;
 
@@ -149,7 +159,7 @@
     height: 3vh;
 }
 
-.messegeContainer
+.contact-messegeContainer
 {
     margin: auto;
 
@@ -157,21 +167,21 @@
     width: 65%;
 }
 
-.messegeLabelContainer
+.contact-messegeLabelContainer
 {
     float: left;
 
     width: 100%;
 }
 
-.messegeLabel
+.contact-messegeLabel
 {
     float: left;
 
     font-size: 24px;
 }
 
-.messageInput
+.contact-messageInput
 {
     float: left;
 
@@ -190,13 +200,13 @@
     max-height: 30vh;
 }
 
-.buttonContainer
+.contact-buttonContainer
 {
     height: 10%;
     width: 100%;
 }
 
-.submitButton
+.contact-submitButton
 {
     height: 5vh;
     width: 10vh;

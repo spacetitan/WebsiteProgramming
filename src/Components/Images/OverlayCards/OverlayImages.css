@@ -3,7 +3,7 @@
     color: #EDF2F4;
 }
 
-.imageBox
+.overlayImage-imageBox
 {
     position: relative;
 
@@ -14,7 +14,7 @@
     border-radius: 1vh;
 }
 
-.imageBox .overlay
+.overlayImage-imageBox .overlayImage-overlay
 {
     position: absolute;
     top: 0;
@@ -27,46 +27,46 @@
     transition: opacity 0.3s;
 }
 
-.imageBox:hover .overlay
+.overlayImage-imageBox:hover .overlayImage-overlay
 {
     opacity: .9;
 }
 
-.overlay h2
+.overlayImage-overlay h2
 {
     padding-top: 5%;
 
     color: #EDF2F4;
 }
 
-.overlay p
+.overlayImage-overlay p
 {
     padding: 5%;
 
     color: #EDF2F4;
 }
 
-.workLink:link
+.overlayImage-workLink:link
 {
     color:#EDF2F4;
 }
 
-.workLink:hover
+.overlayImage-workLink:hover
 {
     color: #540B0E;
 }
 
-.workLink:visited
+.overlayImage-workLink:visited
 {
     color: #8D99AE;
 }
 
-.workLink:active
+.overlayImage-workLink:active
 {
     color: #8D99AE;
 }
 
-.linkButton
+.overlayImage-linkButton
 {
     color: #EDF2F4;
     background-color:transparent;
@@ -80,12 +80,12 @@
     transition: background-color 0.3s;
 }
 
-.linkButton:hover
+.overlayImage-linkButton:hover
 {
     background-color: #540B0E;
 }
 
-.workImage
+.overlayImage-workImage
 {
     position:relative;
     

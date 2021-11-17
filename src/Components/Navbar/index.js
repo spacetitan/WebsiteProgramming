@@ -9,7 +9,7 @@ const NavBar = () =>
             <Nav>
             <NavBtn>
                 <NavBtnLink to='/'>
-                    <img className="Logo" src="./Images/Logo192.png" alt="" />
+                    <img className="navbar-logo" src="../Images/Logo192.png" alt="" />
                 </NavBtnLink>
                 
             </NavBtn>

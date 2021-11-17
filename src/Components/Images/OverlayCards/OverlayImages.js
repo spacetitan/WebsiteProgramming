@@ -10,15 +10,15 @@ const OverlayImages = ({title, body, linkText, link, imageLink}) =>
     const checkImage = imageLink == null ? "" : imageLink;
 
 return(
-    <div className="imageBox">
-        <img src={checkImage} alt="" className="workImage" />
+    <div className="overlayImage-imageBox">
+        <img src={checkImage} alt="" className="overlayImage-workImage" />
 
-        <div className="overlay">
+        <div className="overlayImage-overlay">
             <h2>{checkTitle}</h2>
 
             <p>{checkBody}</p>
 
-            <a href={checkLink} target="_blank" className="workLink"><button className="linkButton">{checkLinkText}</button></a>
+            <a href={checkLink} target="_blank" className="overlayImage-workLink"><button className="overlayImage-linkButton">{checkLinkText}</button></a>
             
         </div>
     </div>
