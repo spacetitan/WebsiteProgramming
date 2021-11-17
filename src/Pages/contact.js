@@ -6,11 +6,9 @@ import Footer from '../Components/Footer/Footer';
 const Contact = () => {
 return (
 	<>
-		<header>
-			<div className="contact-headerContainer">
-				<h1 className="contact-header">Contact</h1>
-			</div>
-		</header>
+		<div className="contact-header">
+			<h1 className="contact-headerText">Contact</h1>
+		</div>
 
 		<body>
 			<div className="contact-formBackground">

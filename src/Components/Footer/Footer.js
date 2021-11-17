@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Footer() {
     return (
         <div className='footerContainer'>
-            <img src="./Images/Logo192.png" alt="" className="footerLogo" />
+            <img src="../Images/Logo192.png" alt="" className="footerLogo" />
 
             <p className="footerText">
                 Check me out on 

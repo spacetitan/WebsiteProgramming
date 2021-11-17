@@ -7,8 +7,8 @@ function template() {
 return (
 <>
     <header>
-        <div className="template-headerContainer">
-            <h1>Portfolio</h1>
+        <div className="template-header">
+            <h1 className="template-headerText">Portfolio</h1>
        </div>
     </header>
    

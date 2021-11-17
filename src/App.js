@@ -8,11 +8,10 @@ import ScrollToTop from './Components/Tools/ScrollToTop';
 import Home from './Pages/index';
 import Projects from './Pages/projects';
 
-import template from './Pages/Projects/template';
 import FullSwingGolfSimulator from './Pages/Projects/FullSwingGolfSimulator';
+import FullSwingLaunchMonitor from './Pages/Projects/FullSwingLaunchMonitor';
 
 import Contact from './Pages/contact';
-
 
 function App() {
   return (
@@ -22,7 +21,7 @@ function App() {
           {
             'body { background-color : #EDF2F4; color: #0C1521; }'
           }
-          </style>
+        </style>
       </Helmet>
 
 
@@ -33,8 +32,8 @@ function App() {
             <Route exact path='/' exact component={Home} />
             <Route path='/portfolio' exact component={Projects} />
             <Route path='/portfolio/FullSwingGolfSimulator' exact component={FullSwingGolfSimulator} />
-            {/* <Route path='/portfolio/FullSwingLaunchMonitor' exact component={FullSwingLaunchMonitor} />
-            <Route path='/portfolio/PokerGoHoldEm' exact component={PokerGoHoldEm} />
+            <Route path='/portfolio/FullSwingLaunchMonitor' exact component={FullSwingLaunchMonitor} />
+            {/* <Route path='/portfolio/PokerGoHoldEm' exact component={PokerGoHoldEm} />
             <Route path='/portfolio/OsirisNewDawn' exact component={OsirisNewDawn} />
             <Route path='/portfolio/Maelstrom' exact component={Maelstrom} />
             <Route path='/portfolio/TPMS' exact component={TPMS} />
