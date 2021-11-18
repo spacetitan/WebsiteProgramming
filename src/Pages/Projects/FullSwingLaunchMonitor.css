@@ -70,6 +70,9 @@
     width: 80%;
     margin: auto;
     overflow: hidden;
+        
+    display: flex;
+    justify-content: center;
 
     padding-top: 7%;
 }

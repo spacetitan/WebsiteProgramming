@@ -15,7 +15,7 @@ return (
                 <div className="FSLM-bodyContainer">
                     <div className="FSLM-leftBox">
                         <div className="FSLM-imageBox">
-                            <img src= "../Images/Projects/FullSwingGolfSimulator.jpg" className="FSLM-projectImage" />
+                            <img src= "../Images/Projects/Launch Monitor.jpg" className="FSLM-projectImage" />
                         </div>
                     </div>
 

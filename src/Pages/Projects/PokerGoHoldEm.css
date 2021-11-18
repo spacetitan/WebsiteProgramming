@@ -9,7 +9,7 @@
     text-align: center;
 }
 
-.FSGS-header
+.PokerGo-header
 {
     margin: auto;
     padding-top: 5vh;
@@ -23,12 +23,12 @@
     background-color: #EDF2F4;
 }
 
-.FSGS-headerText
+.PokerGo-headerText
 {
     padding-top: 5vh;
 }
 
-.FSGS-bodybackground
+.PokerGo-bodybackground
 {
     background-color: #540B0E;
 
@@ -37,7 +37,7 @@
     padding: 5vh;
 }
 
-.FSGS-bodyContainer
+.PokerGo-bodyContainer
 {
     background-color: #EDF2F4;
 
@@ -51,7 +51,7 @@
     border-radius: 1vh;
 }
 
-.FSGS-leftBox
+.PokerGo-leftBox
 {
     float: left;
 
@@ -64,20 +64,20 @@
     margin: auto;
 }
 
-.FSGS-imageBox
+.PokerGo-imageBox
 {
     height: 80%;
     width: 80%;
     margin: auto;
     overflow: hidden;
-
+    
     display: flex;
     justify-content: center;
 
     padding-top: 7%;
 }
 
-.FSGS-projectImage
+.PokerGo-projectImage
 {
     position:relative;
     
@@ -88,7 +88,7 @@
     width: auto;
 }
 
-.FSGS-rightBox
+.PokerGo-rightBox
 {
     float: right;
 
@@ -99,7 +99,7 @@
     border-radius: 1vh;
 }
 
-.FSGS-projectTitle
+.PokerGo-projectTitle
 {
     padding-top: 5vh;
 
@@ -108,7 +108,7 @@
     font-size: 32px;
 }
 
-.FSGS-descriptionTitle
+.PokerGo-descriptionTitle
 {
     padding-top: 5vh;
 
@@ -117,7 +117,7 @@
     font-size: 24px;
 }
 
-.FSGS-projectDescription
+.PokerGo-projectDescription
 {
     padding-top: 1vh;
 
@@ -127,7 +127,7 @@
     font-size: 18px;
 }
 
-.FSGS-linkTitle
+.PokerGo-linkTitle
 {
     padding-top: 5vh;
 
@@ -136,7 +136,7 @@
     font-size: 24px;
 }
 
-.FSGS-link
+.PokerGo-link
 {
     float: left;
     margin-left: 0;
@@ -145,7 +145,7 @@
     text-align: left;
 }
 
-.FSGS-linkDiv
+.PokerGo-linkDiv
 {
     height: 4vh;
     width: 30%;
@@ -154,7 +154,7 @@
     margin-left: 0;
 }
 
-.FSGS-or
+.PokerGo-or
 {
     font-size: 22px;
     text-align: left;

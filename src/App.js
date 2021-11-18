@@ -10,8 +10,12 @@ import Projects from './Pages/projects';
 
 import FullSwingGolfSimulator from './Pages/Projects/FullSwingGolfSimulator';
 import FullSwingLaunchMonitor from './Pages/Projects/FullSwingLaunchMonitor';
+import PokerGoHoldEm from './Pages/Projects/PokerGoHoldEm';
+import OsirisNewDawn from './Pages/Projects/OsirisNewDawn';
+import Maelstrom from './Pages/Projects/Maelstrom';
 
 import Contact from './Pages/contact';
+
 
 function App() {
   return (
@@ -33,10 +37,10 @@ function App() {
             <Route path='/portfolio' exact component={Projects} />
             <Route path='/portfolio/FullSwingGolfSimulator' exact component={FullSwingGolfSimulator} />
             <Route path='/portfolio/FullSwingLaunchMonitor' exact component={FullSwingLaunchMonitor} />
-            {/* <Route path='/portfolio/PokerGoHoldEm' exact component={PokerGoHoldEm} />
+            <Route path='/portfolio/PokerGoHoldEm' exact component={PokerGoHoldEm} />
             <Route path='/portfolio/OsirisNewDawn' exact component={OsirisNewDawn} />
             <Route path='/portfolio/Maelstrom' exact component={Maelstrom} />
-            <Route path='/portfolio/TPMS' exact component={TPMS} />
+            {/* <Route path='/portfolio/TPMS' exact component={TPMS} />
             <Route path='/portfolio/FPPCH' exact component={FPPCH} />
             <Route path='/portfolio/BumperBalls' exact component={BumperBalls} />
             <Route path='/portfolio/CowboyShooter' exact component={CowboyShooter} /> */}

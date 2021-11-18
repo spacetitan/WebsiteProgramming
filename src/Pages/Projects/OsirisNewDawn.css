@@ -9,7 +9,7 @@
     text-align: center;
 }
 
-.FSGS-header
+.Osiris-header
 {
     margin: auto;
     padding-top: 5vh;
@@ -23,12 +23,12 @@
     background-color: #EDF2F4;
 }
 
-.FSGS-headerText
+.Osiris-headerText
 {
     padding-top: 5vh;
 }
 
-.FSGS-bodybackground
+.Osiris-bodybackground
 {
     background-color: #540B0E;
 
@@ -37,7 +37,7 @@
     padding: 5vh;
 }
 
-.FSGS-bodyContainer
+.Osiris-bodyContainer
 {
     background-color: #EDF2F4;
 
@@ -51,12 +51,12 @@
     border-radius: 1vh;
 }
 
-.FSGS-leftBox
+.Osiris-leftBox
 {
     float: left;
 
     height: 100%;
-    width: 40%;
+    width: 50%;
 
     border: 1vh;
     border-radius: 1vh;
@@ -64,10 +64,10 @@
     margin: auto;
 }
 
-.FSGS-imageBox
+.Osiris-imageBox
 {
     height: 80%;
-    width: 80%;
+    width: 90%;
     margin: auto;
     overflow: hidden;
 
@@ -77,7 +77,7 @@
     padding-top: 7%;
 }
 
-.FSGS-projectImage
+.Osiris-projectImage
 {
     position:relative;
     
@@ -88,18 +88,18 @@
     width: auto;
 }
 
-.FSGS-rightBox
+.Osiris-rightBox
 {
     float: right;
 
     height: 100%;
-    width: 60%;
+    width: 50%;
 
     border: 1vh;
     border-radius: 1vh;
 }
 
-.FSGS-projectTitle
+.Osiris-projectTitle
 {
     padding-top: 5vh;
 
@@ -108,7 +108,7 @@
     font-size: 32px;
 }
 
-.FSGS-descriptionTitle
+.Osiris-descriptionTitle
 {
     padding-top: 5vh;
 
@@ -117,7 +117,7 @@
     font-size: 24px;
 }
 
-.FSGS-projectDescription
+.Osiris-projectDescription
 {
     padding-top: 1vh;
 
@@ -127,7 +127,7 @@
     font-size: 18px;
 }
 
-.FSGS-linkTitle
+.Osiris-linkTitle
 {
     padding-top: 5vh;
 
@@ -136,7 +136,7 @@
     font-size: 24px;
 }
 
-.FSGS-link
+.Osiris-link
 {
     float: left;
     margin-left: 0;
@@ -145,7 +145,7 @@
     text-align: left;
 }
 
-.FSGS-linkDiv
+.Osiris-linkDiv
 {
     height: 4vh;
     width: 30%;
@@ -154,7 +154,7 @@
     margin-left: 0;
 }
 
-.FSGS-or
+.Osiris-or
 {
     font-size: 22px;
     text-align: left;
