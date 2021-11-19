@@ -15,6 +15,10 @@ import OsirisNewDawn from './Pages/Projects/OsirisNewDawn';
 import Maelstrom from './Pages/Projects/Maelstrom';
 
 import Contact from './Pages/contact';
+import TPMS from './Pages/Projects/TPMS';
+import FPPCH from './Pages/Projects/FPPCH';
+import BumperBalls from './Pages/Projects/BumperBalls';
+import CowboyShooter from './Pages/Projects/CowboyShooter';
 
 
 function App() {
@@ -40,10 +44,10 @@ function App() {
             <Route path='/portfolio/PokerGoHoldEm' exact component={PokerGoHoldEm} />
             <Route path='/portfolio/OsirisNewDawn' exact component={OsirisNewDawn} />
             <Route path='/portfolio/Maelstrom' exact component={Maelstrom} />
-            {/* <Route path='/portfolio/TPMS' exact component={TPMS} />
+            <Route path='/portfolio/TPMS' exact component={TPMS} />
             <Route path='/portfolio/FPPCH' exact component={FPPCH} />
             <Route path='/portfolio/BumperBalls' exact component={BumperBalls} />
-            <Route path='/portfolio/CowboyShooter' exact component={CowboyShooter} /> */}
+            <Route path='/portfolio/CowboyShooter' exact component={CowboyShooter} />
 
             <Route path='/contact' exact component={Contact} />
           </Switch>

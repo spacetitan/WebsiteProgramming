@@ -126,8 +126,8 @@ return (
 
 					<div className="portfolio-cardContainer">
 						<PortfolioCards 
-							title = "Bumper Balls - Minigames project"
-							body = "a simple minigame in which you try to push simple AIs off a platform."
+							title = "Bumper Balls"
+							body = "A simple minigame in which you try to push the other balls off a platform."
 							link = "BumperBalls"
 							linkText = "More Details"
 							imageLink = "./Images/tempImage.png"
@@ -136,7 +136,7 @@ return (
 
 					<div className="portfolio-cardContainer">
 						<PortfolioCards 
-							title = "Cowboy Shooter - Minigames Project"
+							title = "Cowboy Shooter"
 							body = "A simple shooter where you only have one bullet."
 							link = "CowboyShooter"
 							linkText = "More Details"
