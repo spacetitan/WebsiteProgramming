@@ -24,7 +24,7 @@ return (
 
                         <h3 className="FSLM-descriptionTitle">Description:</h3>
                         <p className="FSLM-projectDescription">
-                            This project was mostly just outputing data through UI to show stats gathered from a tracker. 
+                            This project was mostly just outputting data through UI to show stats gathered from a tracker.
                             I've worked heavily on the Mobile version creating Menus, stat tiles UI, and shot groupings UI.
                             I've also worked somewhat on connecting and sending data to an Apple watch and some of the Apple Watch UI. 
                         </p>

@@ -40,6 +40,8 @@
     width: 100%;
     background-color: #540B0E;
     color: #EDF2F4;
+
+    box-shadow: inset 0px 5px 10px -5px #0C1821;
 }
 
 .index-bodyHeader
@@ -61,6 +63,8 @@
     margin: auto;
 
     color: #EDF2F4;
+
+    font-size: 18px;
 }
 
 .index-skillbackground
@@ -80,6 +84,8 @@
 
     border: 1vh;
     border-radius: 1vh;
+
+    box-shadow: 5px 5px 10px #0C1821;
 }
 
 .index-skillCard
@@ -156,6 +162,9 @@
     color: #0C1821;
     background-color: #EDF2F4;
 
+    border: 1px;
+    box-shadow: 15px 15px 0px #0C1821;
+
     height: 110vh;
 }
 
@@ -204,8 +213,12 @@
     height: 60px;
     width: 275px;
 
-    border: 3px solid #540B0E;
-    border-radius: 1vh;
+    border: 5px solid #540B0E;
+    border-radius: 2vh;
+    overflow: hidden;
+
+    box-shadow: 5px 5px 10px #0C1821;
+
     transition-duration: 0.index-4s;
 
     margin: auto;

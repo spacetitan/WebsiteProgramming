@@ -12,6 +12,8 @@
 
     overflow: hidden;
     border-radius: 1vh;
+
+    box-shadow: 5px 5px 10px #0C1821;
 }
 
 .overlayImage-imageBox .overlayImage-overlay
@@ -92,6 +94,6 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 110%;
+    height: 120%;
     width: auto;
 }

@@ -3,15 +3,27 @@ import './Footer.css';
 
 import { Link } from "react-router-dom";
 
-function Footer() {
+function Footer(props) {
+    const hasShadow = props.hasShadow;
+
+    React.useEffect(()=>
+    {
+        let footerContainer = document.getElementById('footerContainer');
+        if(hasShadow == true)
+        {
+            footerContainer.style.boxShadow = "inset 0px 5px 10px -5px #0C1821";
+        }
+    },[]);
+
     return (
-        <div className='footerContainer'>
-            <img src="../Images/Logo192.png" alt="" className="footerLogo" />
+        <div className='footerContainer' id='footerContainer'>
+
+            <img  src="../Images/Logo192.png" alt="" className="footerLogo" />
 
             <p className="footerText">
                 Check me out on 
                 <button className="footerButton">
-                    <a href="https://www.linkedin.com/in/benjamin-navarro-162096182/" target="_blank" className="footerLink">Linkedin</a>
+                    <a href="https://www.linkedin.com/in/benjamin-navarro-162096182/" target="_blank" className="footerLink">LinkedIn</a>
                 </button>
             </p>
 

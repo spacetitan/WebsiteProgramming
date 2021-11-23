@@ -6,20 +6,19 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import ScrollToTop from './Components/Tools/ScrollToTop';
 
 import Home from './Pages/index';
-import Projects from './Pages/projects';
 
+import Projects from './Pages/projects';
 import FullSwingGolfSimulator from './Pages/Projects/FullSwingGolfSimulator';
 import FullSwingLaunchMonitor from './Pages/Projects/FullSwingLaunchMonitor';
 import PokerGoHoldEm from './Pages/Projects/PokerGoHoldEm';
 import OsirisNewDawn from './Pages/Projects/OsirisNewDawn';
 import Maelstrom from './Pages/Projects/Maelstrom';
-
-import Contact from './Pages/contact';
 import TPMS from './Pages/Projects/TPMS';
 import FPPCH from './Pages/Projects/FPPCH';
 import BumperBalls from './Pages/Projects/BumperBalls';
 import CowboyShooter from './Pages/Projects/CowboyShooter';
 
+import Contact from './Pages/contact';
 
 function App() {
   return (

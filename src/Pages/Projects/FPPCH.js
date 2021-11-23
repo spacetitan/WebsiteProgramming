@@ -24,9 +24,9 @@ return (
                         <h3 className="FPPCH-descriptionTitle">Description:</h3>
                         <p className="FPPCH-projectDescription">
                             This was a project that was inspired not long ago and I use this project to explore more Game Design Concepts.
-                            The inspiration for this project was a house tour found on the internet of an church that was turned into a warehouse.
+                            The inspiration for this project was a house tour found on the internet of a church that was turned into a warehouse.
                             Exploring it and finding strange items and rooms as I went further into the church was something I thought would make a good horror game.
-                            A rundown of the design would be entering a similar building but the further you go down, the starnger things would get.
+                            A rundown of the design would be entering a similar building, but the further you go down, the stranger things would get.
                             I wanted a type of point and click, like Google Earth and GeoGuesser, and the rooms, items, and/or monsters would move when you do.
                             You would have to be alert to your surroundings and pay close attention while the setting hopefully keeps you immersed and on edge.
                         </p>

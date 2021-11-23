@@ -23,8 +23,7 @@ return (
 
                         <h3 className="BumperBalls-descriptionTitle">Description:</h3>
                         <p className="BumperBalls-projectDescription">
-                           A copy of the Mario Party Minigame, I create minigames to fill my portfolio.
-                           You play as a ball and the goal is to be the last one remaining on the platform.
+                           A copy of the Mario Party Minigame where you play as a ball and the goal is to be the last one remaining on the platform.
                            This project uses simple physics and AI for the other players.
                         </p>
                         

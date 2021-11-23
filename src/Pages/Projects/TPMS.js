@@ -26,7 +26,7 @@ return (
                         <p className="TPMS-projectDescription">
                             A somewhat permanent project that I come back to now and again to re-familiarize myself to Unity.
                             I've been designing and working on it for years, off-and-on, just to have a creative outlet and remember why I choose to program.
-                            This project also utilizes scriptable objects and help me learn them and other tools and concepts for myself.
+                            This project also utilizes Scriptable Objects and help me learn them and other tools and concepts for myself.
                         </p>
                         
                         <h3 className="TPMS-linkTitle">Links:</h3>

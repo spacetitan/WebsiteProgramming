@@ -25,8 +25,8 @@ return (
 
                         <h3 className="CowboyShooter-descriptionTitle">Description:</h3>
                         <p className="CowboyShooter-projectDescription">
-                           A gamemode based off of a common shooter party game of 'One in the Chamber'.
-                           You have can only load one bullet into your gun and killing an enemy instantly loads another bullet into your gun.
+                            A game mode based off of a common shooter party game of 'One in the Chamber'.
+                            You have can only load one bullet into your gun and killing an enemy instantly loads another bullet into your gun.
                         </p>
                         
                         <h3 className="CowboyShooter-linkTitle">Links:</h3>

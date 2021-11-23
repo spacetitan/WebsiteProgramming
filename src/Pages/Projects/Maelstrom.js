@@ -25,8 +25,8 @@ return (
                         <h3 className="Maelstrom-descriptionTitle">Description:</h3>
                         <p className="Maelstrom-projectDescription">
                             Worked mostly on controller support integration for console release and fulfilling console requirements.
-                            Fixing issues that appeared when building for console and modifying exisitng blueprints to read controller input.
-                            Also worked on restructuring UI to accept input from controller and keyboard simultaneously.
+                            Fixing issues that appeared when building for console and modifying existing blueprints to read controller input.
+                            Also worked on restructuring the UI to accept input from a controller and keyboard simultaneously.
                         </p>
                         
                         <h3 className="Maelstrom-linkTitle">Links:</h3>

@@ -21,7 +21,7 @@ return (
                     </div>
 
                     <div className="Osiris-rightBox">
-                        <h2 className="Osiris-projectTitle">Osiris New Dawn</h2>
+                        <h2 className="Osiris-projectTitle">Osiris: New Dawn</h2>
 
                         <h3 className="Osiris-descriptionTitle">Description:</h3>
                         <p className="Osiris-projectDescription">

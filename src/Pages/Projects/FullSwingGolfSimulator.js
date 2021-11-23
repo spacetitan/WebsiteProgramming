@@ -25,8 +25,8 @@ return (
                         <h3 className="FSGS-descriptionTitle">Description:</h3>
                         <p className="FSGS-projectDescription">
                             When working on this project we had to interface into a prototype simulator unit and process data passed from several sensors and cameras. 
-                            Personally worked on processing camera and sensor data to display in Post-Shot UI for detailed display of data and slow motion video replay of the club connecting with the ball. 
-                            Also worked on tweaking and marking bounderies and areas for courses constructed by satillite data. As well as creating, optimizing, and refining main menu UI and some in-game UI.
+                            Personally worked on processing camera and sensor data to display in the Post-Shot UI for detailed display of data and slow motion video replay of the club connecting with the ball. 
+                            Also worked on tweaking and marking boundaries and areas for courses constructed automatically from satellite data. As well as creating, optimizing, and refining the main menu UI and some in-game UI.
                         </p>
                         
                         <h3 className="FSGS-linkTitle">Links:</h3>

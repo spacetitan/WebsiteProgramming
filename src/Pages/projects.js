@@ -11,9 +11,7 @@ return (
 			<h1 className="portfolio-headerText">Portfolio</h1>
 
 			<p className="portfolio-subHeader">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+
 			</p>
 		</div>
 
@@ -48,7 +46,7 @@ return (
 					<div className="portfolio-cardContainer">
 						<PortfolioCards 
 							title = "Full Swing Launch Monitor"
-							body = "Implemented UI/UX for general navigation and to display data recieved from sensor on phone application."
+							body = "Implemented UI/UX for general navigation and to display data received from a sensor to a phone application."
 							link = "FullSwingLaunchMonitor"
 							linkText = "More Details"
 							imageLink = "./Images/Projects/Launch Monitor.jpg"
@@ -57,8 +55,8 @@ return (
 
 					<div className="portfolio-cardContainer">
 						<PortfolioCards 
-							title = "PokerGo Holdem"
-							body = "Worked on restructuring existing engine to work with new rules, and assets. Also worked on implementing UI/UX and VFX as well as a lot of bug fixing caused by issues with oudated engine."
+							title = "Poker GO Holdem"
+							body = "Worked on restructuring existing engine to work with a set of new rules, and assets. Also worked on implementing UI/UX and VFX as well as a lot of bug fixing caused by issues with outdated engine."
 							link = "PokerGoHoldEm"
 							linkText = "More Details"
 							imageLink = "./Images/Projects/PokerGOHoldEm.png"
@@ -67,7 +65,7 @@ return (
 
 					<div className="portfolio-cardContainer">
 						<PortfolioCards 
-							title = "Osiris New Dawn"
+							title = "Osiris: New Dawn"
 							body = "Focused on fixing game breaking issues after core system restructuring, new system additions and new asset introductions."
 							link = "OsirisNewDawn"
 							linkText = "More Details"
@@ -78,7 +76,7 @@ return (
 					<div className="portfolio-cardContainer">
 						<PortfolioCards 
 							title = "Maelstrom"
-							body = "Worked on restructuring UI/UX for Controller support. Also worked on fulfilling requirement needed for console release."
+							body = "Worked on restructuring UI/UX for Controller support. Also worked on fulfilling requirement needed for a console release."
 							link = "Maelstrom"
 							linkText = "More Details"
 							imageLink = "./Images/Projects/Maelstrom.jpg"
@@ -107,7 +105,7 @@ return (
 					<div className="portfolio-cardContainer">
 						<PortfolioCards 
 							title = "TPMS"
-							body = "a third person mech shooter that is unamed with switchable loadouts that I have been working on off and on for years."
+							body = "A third person mech shooter with switchable loadouts that I have been working on off and on for years."
 							link = "TPMS"
 							linkText = "More Details"
 							imageLink = "./Images/tempImage.png"
@@ -117,7 +115,7 @@ return (
 					<div className="portfolio-cardContainer">
 						<PortfolioCards 
 							title = "FPPCH"
-							body = "A first person point and click horror game where everything moves when you do"
+							body = "A first person point and click horror game where everything moves when you do."
 							link = "FPPCH"
 							linkText = "More Details"
 							imageLink = "./Images/tempImage.png"
@@ -127,7 +125,7 @@ return (
 					<div className="portfolio-cardContainer">
 						<PortfolioCards 
 							title = "Bumper Balls"
-							body = "A simple minigame in which you try to push the other balls off a platform."
+							body = "A simple Minigame in which you try to push the other balls off a platform."
 							link = "BumperBalls"
 							linkText = "More Details"
 							imageLink = "./Images/tempImage.png"

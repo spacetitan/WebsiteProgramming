@@ -48,6 +48,8 @@
 {
     background-color: #540B0E;
 
+    box-shadow: inset 0px 5px 10px -5px #0C1821;
+
     padding: 1vh;
 }
 
@@ -62,6 +64,8 @@
 
     border: 1vh;
     border-radius: 1vh;
+
+    box-shadow: 5px 5px 10px #0C1821;
 
     display: flex;
     flex-wrap: wrap;
@@ -103,6 +107,8 @@
 
     border: 1vh;
     border-radius: 1vh;
+
+    box-shadow: 5px 5px 10px #0C1821;
 
     display: flex;
     flex-wrap: wrap;

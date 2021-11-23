@@ -11,7 +11,7 @@ return (
 	<>
 		<div className="index-header">
 			<h1 className="index-headerText">
-				Front End Game Dev and Full Stack Web Dev
+				Front-End Game Developer and Full Stack Web Developer
 			</h1>
 			
 			<p className="index-subHeader">
@@ -42,13 +42,13 @@ return (
 						<img className="index-skillImage" src="./Images/GEImage.png" alt="" />
 						
 						<div className="index-skillHeader">
-							<h2>Front End Game Developer</h2>
+							<h2>Front-End Game Developer</h2>
 						</div>
 						
 
 						<p className="index-experienceBlock">
 							3 years industry experience with Unity Engine and experience porting projects from Unreal Engine to consoles. 
-							Specialized in UI/UX programming, optimization, and implementation as well as general systems programming and some Backend Development. 
+							Specialized in UI/UX programming, optimization, and implementation as well as general systems programming and some Back-End Development. 
 						</p>
 
 						<h3>Related Languages</h3>
@@ -62,7 +62,7 @@ return (
 						<li>GitLab</li>
 						<li>PlasticSCM</li>
 						<li>Scriptable Object</li>
-						<li>Visual Studios</li>
+						<li>Visual Studio</li>
 						<li>Jira</li>
 						<li>Slack</li>
 
@@ -78,7 +78,7 @@ return (
 						</div>
 						
 						<p className="index-experienceBlock">
-							Experienced with multiple JS Libraries including React, multiple years industy experience with UI/UX implementation and programming.
+							Experienced with multiple JS Libraries and have multiple years industry experience with UI/UX implementation and programming.
 						</p>
 
 						<h3>Related Languages</h3>
@@ -108,14 +108,14 @@ return (
 						
 
 						<p className="index-experienceBlock">
-							6 years experience reading cards and fortune for many who are skeptical or interested in many different enviroments. 
+							6 years experience reading cards and fortune for many who are skeptical or interested in many different environments.
 							Learned to read Tarot Cards in Florence, Italy among other Readers.
 						</p>
 
 						<h3>Related Skill</h3>
 
 						<p className="index-skillsBlock">
-							Created fotrune teller persona "Madame Universe" to immerse myself into the role. Madame Universe connects with "The Stars" to tell your fortune.
+							Created fortune teller persona "Madame Universe" to immerse myself into the role. Madame Universe connects with "The Stars" to tell your fortune.
 						</p>
 
 						<h3>Tools</h3>
@@ -137,7 +137,7 @@ return (
 						<OverlayImages 
 							title = "Full Swing Golf Simulator" 
 							body="Worked on processing and tweaking satellite data to create terrain for courses, UI/UX implementation, parsing camera data for replay, and general programming."
-							linkText="Check it out there website"
+							linkText="Check it out their website"
 							link="https://www.fullswinggolf.com/golf-simulator/"
 							imageLink="./Images/Projects/FullSwingGolfSimulator.jpg"
 						/>
@@ -145,9 +145,9 @@ return (
 
 					<div className="index-workCard">
 						<OverlayImages 
-							title = "Full Swing Launch Moniter"
-							body="Implemented UI/UX for general navigation and to display data recieved from sensor on phone application."
-							linkText="Check it out there website"
+							title = "Full Swing Launch Monitor"
+							body="Implemented UI/UX for general navigation and to display data received from a sensor to a phone application."
+							linkText="Check it out their website"
 							link="https://www.fullswinggolf.com/kit-launch-monitor/"
 							imageLink="./Images/Projects/Launch Monitor.jpg"
 						/>
@@ -155,9 +155,9 @@ return (
 
 					<div className="index-workCard">
 						<OverlayImages 
-							title = "PokerGo Holdem" 
-							body="Worked on restructuring existing engine to work with new rules, and assets. Also worked on implementing UI/UX and VFX as well as a lot of bug fixing caused by issues with oudated engine."
-							linkText="Check it out on the Google appstore"
+							title = "Poker GO Holdem" 
+							body="Worked on restructuring existing engine to work with a set of new rules, and assets. Also worked on implementing UI/UX and VFX as well as a lot of bug fixing caused by issues with outdated engine."
+							linkText="Check it out on the Google Play Store"
 							link="https://play.google.com/store/apps/details?id=com.PokerGO.Holdem&hl=en_US&gl=US"
 							imageLink="./Images/Projects/PokerGOHoldEm.png"
 						/>
@@ -165,7 +165,7 @@ return (
 
 					<div className="index-workCard">
 						<OverlayImages 
-							title = "Osiris New Dawn"
+							title = "Osiris: New Dawn"
 							body="Focused on fixing game breaking issues after core system restructuring, new system additions and new asset introductions."
 							linkText="Check it out on Steam"
 							link="https://store.steampowered.com/app/402710/Osiris_New_Dawn/"
@@ -176,7 +176,7 @@ return (
 					<div className="index-workCard">
 						<OverlayImages 
 							title = "Maelstrom"
-							body="Worked on restructuring UI/UX for Controller support. Also worked on fulfilling requirement needed for console release."
+							body="Worked on restructuring UI/UX for Controller support. Also worked on fulfilling requirement needed for a console release."
 							linkText="Check it out on Steam"
 							link="https://store.steampowered.com/app/764050/Maelstrom/"
 							imageLink="./Images/Projects/Maelstrom.jpg"
@@ -186,7 +186,7 @@ return (
 					<div className="index-detailsButtonContainer">
 						<button className="index-moreDetailsButton">
 							<Link to="portfolio" className="index-moreDetailsLink">
-								Find out more details in the projects page {'>'}
+								Find out more details on the projects page {'>'}
 							</Link>
 						</button>
 
@@ -194,7 +194,7 @@ return (
 				</div>
 			</div>
 
-			<Footer />
+			<Footer hasShadow = {true}/>
 		</body>
 	</>
 );};
