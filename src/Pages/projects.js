@@ -15,7 +15,7 @@ return (
 			</p>
 		</div>
 
-		<body>
+		<body className="portfolio-body">
 			<div className="portfolio-releasedProjectsBackground">
 				
 				<div className="portfolio-releasedProjectsHeader">

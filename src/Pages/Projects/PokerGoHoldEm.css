@@ -163,3 +163,51 @@
     font-size: 22px;
     text-align: left;
 }
+
+@media screen and (max-width:1920px)
+{
+    .PokerGo-bodyContainer
+    {
+        height: 80%;
+    }
+
+    .PokerGo-link
+    {
+        font-size: 24px;
+    }
+
+    .PokerGo-linkDiv
+    {
+        height: 4vh;
+        width: 30%;
+    }
+
+    .PokerGo-or
+    {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:1366px)
+{
+    .PokerGo-bodyContainer
+    {
+        height: 100%;
+    }
+
+    .PokerGo-link
+    {
+        font-size: 18px;
+    }
+
+    .PokerGo-linkDiv
+    {
+        height: 5vh;
+        width: 60%;
+    }
+
+    .PokerGo-or
+    {
+        font-size: 18px;
+    }
+}

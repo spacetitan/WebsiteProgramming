@@ -163,3 +163,56 @@
     font-size: 22px;
     text-align: left;
 }
+
+@media screen and (max-width:1920px)
+{
+    .FPPCH-bodyContainer
+    {
+        height: 80%;
+    }
+
+    .FPPCH-link
+    {
+        font-size: 24px;
+    }
+
+    .FPPCH-linkDiv
+    {
+        height: 4vh;
+        width: 30%;
+    }
+
+    .FPPCH-or
+    {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:1366px)
+{
+    .FPPCH-bodyContainer
+    {
+        height: 100%;
+    }
+
+    .FPPCH-projectDescription
+    {
+        font-size: 16px;
+    }
+
+    .FPPCH-link
+    {
+        font-size: 18px;
+    }
+
+    .FPPCH-linkDiv
+    {
+        height: 5vh;
+        width: 60%;
+    }
+
+    .FPPCH-or
+    {
+        font-size: 18px;
+    }
+}

@@ -163,3 +163,51 @@
     font-size: 22px;
     text-align: left;
 }
+
+@media screen and (max-width:1920px)
+{
+    .Maelstrom-bodyContainer
+    {
+        height: 80%;
+    }
+
+    .Maelstrom-link
+    {
+        font-size: 24px;
+    }
+
+    .Maelstrom-linkDiv
+    {
+        height: 4vh;
+        width: 30%;
+    }
+
+    .Maelstrom-or
+    {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:1366px)
+{
+    .Maelstrom-bodyContainer
+    {
+        height: 100%;
+    }
+
+    .Maelstrom-link
+    {
+        font-size: 18px;
+    }
+
+    .Maelstrom-linkDiv
+    {
+        height: 5vh;
+        width: 60%;
+    }
+
+    .Maelstrom-or
+    {
+        font-size: 18px;
+    }
+}

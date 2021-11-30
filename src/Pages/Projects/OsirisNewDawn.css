@@ -163,3 +163,51 @@
     font-size: 22px;
     text-align: left;
 }
+
+@media screen and (max-width:1920px)
+{
+    .Osiris-bodyContainer
+    {
+        height: 80%;
+    }
+
+    .Osiris-link
+    {
+        font-size: 24px;
+    }
+
+    .Osiris-linkDiv
+    {
+        height: 4vh;
+        width: 30%;
+    }
+
+    .Osiris-or
+    {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:1366px)
+{
+    .Osiris-bodyContainer
+    {
+        height: 100%;
+    }
+
+    .Osiris-link
+    {
+        font-size: 18px;
+    }
+
+    .Osiris-linkDiv
+    {
+        height: 5vh;
+        width: 60%;
+    }
+
+    .Osiris-or
+    {
+        font-size: 18px;
+    }
+}

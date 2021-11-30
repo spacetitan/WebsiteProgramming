@@ -163,3 +163,51 @@
     font-size: 22px;
     text-align: left;
 }
+
+@media screen and (max-width:1920px)
+{
+    .FSLM-bodyContainer
+    {
+        height: 80%;
+    }
+
+    .FSLM-link
+    {
+        font-size: 24px;
+    }
+
+    .FSLM-linkDiv
+    {
+        height: 4vh;
+        width: 30%;
+    }
+
+    .FSLM-or
+    {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:1366px)
+{
+    .FSLM-bodyContainer
+    {
+        height: 100%;
+    }
+
+    .FSLM-link
+    {
+        font-size: 18px;
+    }
+
+    .FSLM-linkDiv
+    {
+        height: 5vh;
+        width: 60%;
+    }
+
+    .FSLM-or
+    {
+        font-size: 18px;
+    }
+}

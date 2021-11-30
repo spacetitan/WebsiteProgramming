@@ -43,7 +43,6 @@
 {
     background-color: #EDF2F4;
 
-    height: 80%;
     width: 90%;
 
     margin: auto;
@@ -145,21 +144,64 @@
     float: left;
     margin-left: 0;
 
-    font-size: 24px;
     text-align: left;
 }
 
 .FSGS-linkDiv
 {
-    height: 4vh;
-    width: 30%;
-
     margin: auto;
     margin-left: 0;
 }
 
 .FSGS-or
 {
-    font-size: 22px;
     text-align: left;
+}
+
+@media screen and (max-width:1920px)
+{
+    .FSGS-bodyContainer
+    {
+        height: 80%;
+    }
+
+    .FSGS-link
+    {
+        font-size: 24px;
+    }
+
+    .FSGS-linkDiv
+    {
+        height: 4vh;
+        width: 30%;
+    }
+
+    .FSGS-or
+    {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:1366px)
+{
+    .FSGS-bodyContainer
+    {
+        height: 100%;
+    }
+
+    .FSGS-link
+    {
+        font-size: 18px;
+    }
+
+    .FSGS-linkDiv
+    {
+        height: 5vh;
+        width: 60%;
+    }
+
+    .FSGS-or
+    {
+        font-size: 18px;
+    }
 }
