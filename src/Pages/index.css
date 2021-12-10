@@ -29,9 +29,12 @@
     padding: 5vh;
 }
 
-.index-indexHeaderImage
+.index-splashImage
 {
     margin-top: 5vh;
+
+    height: 300px;
+    width:auto;
 }
 
 .index-body

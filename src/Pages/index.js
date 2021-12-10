@@ -19,7 +19,7 @@ return (
 			</p>
 
 			<div>
-				<img src="./Images/tempImage.png" alt="" className="index-indexHeaderImage"/>
+				<img src="./Images/SplashHome.png" alt="" className="index-splashImage"/>
 			</div>
 		</div>
 
