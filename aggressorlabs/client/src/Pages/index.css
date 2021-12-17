@@ -1,0 +1,306 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+
+    color: #0C1821;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.index-header
+{
+    margin: auto;
+    width: 60%;
+
+	font-size: 24px;
+
+    color: #0C1821;
+    background-color: #EDF2F4;
+}
+
+.index-headerText
+{
+    padding-top: 5vh;
+}
+
+.index-subHeader
+{
+    padding: 5vh;
+}
+
+.index-splashImage
+{
+    margin-top: 5vh;
+
+    height: 300px;
+    width:auto;
+}
+
+.index-body
+{
+    width: 100%;
+    background-color: #540B0E;
+    color: #EDF2F4;
+
+    box-shadow: inset 0px 5px 10px -5px #0C1821;
+}
+
+.index-bodyHeader
+{
+    height: 10vh;
+    width: 45%;
+
+    margin: auto;
+    padding-top: 50px;
+
+    color: #EDF2F4;
+}
+
+.index-bodyDescription
+{
+    height: 15vh;
+    width: 45%;
+
+    margin: auto;
+
+    color: #EDF2F4;
+
+    font-size: 18px;
+}
+
+.index-skillbackground
+{
+    background-color: #540B0E;
+    height: 150vh;
+}
+
+.index-skillContainer
+{
+    background-color: #EDF2F4;
+    display: flex;
+    margin: auto;
+
+    width: 80%;
+
+    border: 1vh;
+    border-radius: 1vh;
+
+    box-shadow: 5px 5px 10px #0C1821;
+}
+
+.index-skillCard
+{
+    margin-top: 15px;
+    padding: 3%;
+
+    width: 30%;
+    height: 80%;
+
+    color: #0C1821;
+    background-color: #EDF2F4;
+
+    border: 1vh;
+    border-radius: 1vh;
+}
+
+.index-skillImage
+{
+    margin: auto;
+
+    padding: 5%;
+    height: 150px;
+    width: 150px;
+}
+
+.index-skillHeader
+{
+    justify-content: center;
+    vertical-align: middle;
+
+    height: 10vh;
+    padding-bottom: 5vh;
+}
+
+.index-skillCard h3
+{
+    padding-bottom: 5%;
+
+    color: #540B0E;
+}
+
+.index-skillCard p
+{
+    padding-bottom: 5vh;
+
+    font-weight: lighter;
+}
+
+.index-experienceBlock
+{
+    height: 15vh;
+}
+
+.index-skillsBlock
+{
+    height: 8vh;
+}
+
+.index-skillCard li
+{
+    list-style: none;
+    padding-bottom: 1vh;
+
+    font-weight: lighter;
+}
+
+.index-previousWorkContainer
+{
+    color: #0C1821;
+    background-color: #EDF2F4;
+
+    height: 110vh;
+
+    border: 1px;
+    box-shadow: 15px 15px 0px #0C1821;
+}
+
+.index-previousWorkContainer h1
+{
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+}
+
+.index-worksContainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+
+    height: 100vh;
+    width: 85%;
+}
+
+.index-workCard
+{
+    float: left;
+    margin: auto;
+
+    border-radius: 1vh;
+}
+
+.index-detailsButtonContainer
+{
+    height: 75px;
+    width: 100%;
+
+    padding-top: 5vh;
+}
+
+.index-moreDetailsButton
+{
+    background-color: #EDF2F4;
+    border-color: #540B0E;
+
+    float: right;
+
+    height: 60px;
+    width: 275px;
+
+    border: 5px solid #540B0E;
+    border-radius: 2vh;
+    overflow: hidden;
+
+    box-shadow: 5px 5px 10px #0C1821;
+
+    transition-duration: 0.index-4s;
+
+    margin: auto;
+}
+
+.index-moreDetailsButton:hover
+{
+    background-color: #8D99AE;
+}
+
+.index-moreDetailsLink
+{
+    color: #540B0E;
+
+    font-size: 18px;
+    text-decoration: none;
+}
+
+@media screen and (max-width:1920px)
+{
+    .index-body
+    {
+        height: 330vh;
+    }
+
+    .index-skillContainer
+    {
+        height: 85%;
+    }
+
+    .index-skillHeader
+    {
+        justify-content: center;
+        vertical-align: middle;
+
+        height: 10vh;
+        padding-bottom: 5vh;
+
+        font-size: 32px;
+    }
+
+    .index-skillCard p
+    {
+        font-size: 20px;
+    }
+
+    .index-skillCard li
+    {
+        font-size: 20px;
+    }
+
+    .index-workCard
+    {
+        height: 300px;
+        width: 500px;
+    }
+}
+
+@media screen and (max-width:1366px)
+{
+    .index-body
+    {
+        height: 345vh;
+    }
+
+    .index-skillContainer
+    {
+        height: 87%;
+    }
+
+    .index-skillHeader
+    {
+        font-size: 24px;
+    }
+
+    .index-skillCard p
+    {
+        font-size: 14px;
+    }
+
+    .index-skillCard li
+    {
+        font-size: 14px;
+    }
+
+    .index-workCard
+    {
+        height: 200px;
+        width: 350px;
+    }
+}

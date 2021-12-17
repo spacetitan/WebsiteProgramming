@@ -1,0 +1,80 @@
+.footerContainer
+{
+    width: 100%;
+
+    color: #EDF2F4;
+    background-color: #540B0E;
+}
+
+.footerLogo
+{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    height: 100px;
+    width: 100px;
+}
+
+.footerHeader
+{
+    padding-bottom: 1vh;
+}
+
+.footerText
+{
+    font-size: 24px;
+
+    color: #EDF2F4;
+}
+
+.footerButton
+{
+    margin-left: 2px;
+    padding: 0px 3px;
+
+    color: #EDF2F4;
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 1vh;
+
+    font-size: 24px;
+}
+
+.footerButton:hover
+{
+    background-color: #8D99AE;
+}
+
+.footerLink:link
+{
+    color: #EDF2F4;
+    text-decoration: none;
+}
+
+.footerLink:visited
+{
+    color: #8D99AE;
+}
+
+.copyrightText
+{
+    padding-top: 5vh;
+    font-size: 16px;
+
+    color: #8D99AE;
+}
+
+@media screen and (max-width:1920px)
+{
+    .footerContainer
+    {
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width:1366px)
+{
+    .footerContainer
+    {
+        height: 52vh;
+    }
+}

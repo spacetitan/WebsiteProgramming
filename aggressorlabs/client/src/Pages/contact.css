@@ -1,0 +1,246 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+
+    color: #0C1821;
+    font-family: Arial, Helvetica, sans-serif;
+
+    text-align: center;
+}
+
+.contact-header
+{
+    margin: auto;
+    padding: auto;
+    padding-bottom: 5vh;
+    height: auto;
+    width: 60%;
+
+	font-size: 24px;
+
+    color: #0C1821;
+    background-color: #EDF2F4;
+}
+
+.contact-headerText
+{
+    padding-top: 5vh;
+}
+
+.contact-formBackground
+{
+    height: 110vh;
+    width: 100%;
+
+    margin: auto;
+    padding-top: 10vh;
+
+    background-color: #540B0E;
+
+    box-shadow: inset 0px 5px 10px -5px #0C1821;
+}
+
+.contact-formContainer
+{
+    height: 90%;
+    width: 60%;
+
+    margin: auto;
+
+    border: 1vh;
+    border-radius: 1vh;
+
+    box-shadow: 5px 5px 5px #0C1821;
+
+    background-color: #EDF2F4;
+}
+
+.contact-contactForm
+{
+    height: 100%;
+
+    margin-left: 10vh;
+}
+
+.contact-descriptionContainer
+{
+    height: 15%;
+    width: 65%;
+
+    margin: auto;
+    margin-left: 15vh;
+    padding-top: 5vh;
+}
+
+.contact-descriptionText
+{
+    text-align: center;
+    justify-content: left;
+}
+
+.contact-idContainer
+{
+    height: 5%;
+    width: 65%;
+
+    margin: auto;
+}
+
+.contact-leftContainer
+{
+    float: left;
+
+    height: 100%;
+    width: 50%;
+}
+
+.contact-nameLabel
+{
+    float: left;
+
+    font-size: 24px;
+}
+
+.contact-nameInput
+{
+    float: left;
+
+    margin-top: 1vh;
+    padding-left: 10px;
+    text-align: left;
+
+    width: 35%;
+    height: 3vh;
+}
+
+.contact-rightContainer
+{
+    float: right;
+
+    height: 100%;
+    width: 50%;
+}
+
+.contact-emailLabel
+{
+    float: left;
+
+    font-size: 24px;
+}
+
+.contact-emailInput
+{
+    margin-top: 1vh;
+    padding-left: 10px;
+    text-align: left;
+
+    width: 35%;
+    height: 3vh;
+}
+
+.contact-subjectContainer
+{
+    margin: auto;
+    margin-top: 7vh;
+
+    height: 10%;
+    width: 65%;
+}
+
+.contact-subjectLabelContainer
+{
+    float: left;
+
+    width: 100%;
+}
+
+.contact-subjectLabel
+{
+    float: left;
+
+    font-size: 24px;
+}
+
+.contact-subjectInput
+{
+    float: left;
+
+    margin-top: 1vh;
+    padding-left: 10px;
+    text-align: left;
+
+    width: 85%;
+    height: 3vh;
+}
+
+.contact-messegeContainer
+{
+    margin: auto;
+
+    height: 38%;
+    width: 65%;
+}
+
+.contact-messegeLabelContainer
+{
+    float: left;
+
+    width: 100%;
+}
+
+.contact-messegeLabel
+{
+    float: left;
+
+    font-size: 24px;
+}
+
+.contact-messageInput
+{
+    float: left;
+
+    margin-top: 1vh;
+    padding-top: 2vh;
+    padding-left: 10px;
+    text-align: left;
+
+    width: 85%;
+    height: 25vh;
+
+    min-width: 85%;
+    max-width: 85%;
+
+    min-height: 25vh;
+    max-height: 30vh;
+}
+
+.contact-buttonContainer
+{
+    height: 10%;
+    width: 100%;
+}
+
+.contact-submitButton
+{
+    height: 5vh;
+    width: 10vh;
+
+    margin-right: 10vh;
+}
+
+@media screen and (max-width:1920px)
+{
+    .contact-descriptionText
+    {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width:1366px)
+{
+    .contact-descriptionText
+    {
+        font-size: 30px;
+    }
+}

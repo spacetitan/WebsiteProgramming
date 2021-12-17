@@ -1,0 +1,213 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+
+    color: #0C1821;
+    font-family: Arial, Helvetica, sans-serif;
+
+    text-align: center;
+}
+
+.Osiris-header
+{
+    margin: auto;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    height: auto;
+    width: 60%;
+
+	font-size: 24px;
+
+    color: #0C1821;
+    background-color: #EDF2F4;
+}
+
+.Osiris-headerText
+{
+    padding-top: 5vh;
+}
+
+.Osiris-bodybackground
+{
+    background-color: #540B0E;
+
+    height: 70vh;
+
+    padding: 5vh;
+
+    box-shadow: inset 0px 5px 10px -5px #0C1821;
+}
+
+.Osiris-bodyContainer
+{
+    background-color: #EDF2F4;
+
+    height: 80%;
+    width: 90%;
+
+    margin: auto;
+    justify-content: center;
+
+    border: 1vh;
+    border-radius: 1vh;
+
+    box-shadow: 5px 5px 10px #0C1821;
+}
+
+.Osiris-leftBox
+{
+    float: left;
+
+    height: 100%;
+    width: 50%;
+
+    border: 1vh;
+    border-radius: 1vh;
+
+    margin: auto;
+}
+
+.Osiris-imageBox
+{
+    height: 80%;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+
+    padding-top: 7%;
+}
+
+.Osiris-projectImage
+{
+    position:relative;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: auto;
+}
+
+.Osiris-rightBox
+{
+    float: right;
+
+    height: 100%;
+    width: 50%;
+
+    border: 1vh;
+    border-radius: 1vh;
+}
+
+.Osiris-projectTitle
+{
+    padding-top: 5vh;
+
+    text-align: left;
+
+    font-size: 32px;
+}
+
+.Osiris-descriptionTitle
+{
+    padding-top: 5vh;
+
+    text-align: left;
+
+    font-size: 24px;
+}
+
+.Osiris-projectDescription
+{
+    padding-top: 1vh;
+
+    text-align: left;
+    margin-right: 10%;
+
+    font-size: 18px;
+}
+
+.Osiris-linkTitle
+{
+    padding-top: 5vh;
+
+    text-align: left;
+
+    font-size: 24px;
+}
+
+.Osiris-link
+{
+    float: left;
+    margin-left: 0;
+
+    font-size: 24px;
+    text-align: left;
+}
+
+.Osiris-linkDiv
+{
+    height: 4vh;
+    width: 30%;
+
+    margin: auto;
+    margin-left: 0;
+}
+
+.Osiris-or
+{
+    font-size: 22px;
+    text-align: left;
+}
+
+@media screen and (max-width:1920px)
+{
+    .Osiris-bodyContainer
+    {
+        height: 80%;
+    }
+
+    .Osiris-link
+    {
+        font-size: 24px;
+    }
+
+    .Osiris-linkDiv
+    {
+        height: 4vh;
+        width: 30%;
+    }
+
+    .Osiris-or
+    {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:1366px)
+{
+    .Osiris-bodyContainer
+    {
+        height: 100%;
+    }
+
+    .Osiris-link
+    {
+        font-size: 18px;
+    }
+
+    .Osiris-linkDiv
+    {
+        height: 5vh;
+        width: 60%;
+    }
+
+    .Osiris-or
+    {
+        font-size: 18px;
+    }
+}
