@@ -23,7 +23,7 @@ return (
 			</div>
 		</div>
 
-		<body className="index-body">
+		<div className="index-body">
 			<div>
 				<h1 className="index-bodyHeader">
 					Ben says hi.
@@ -149,7 +149,7 @@ return (
 							body="Implemented UI/UX for general navigation and to display data received from a sensor to a phone application."
 							linkText="Check it out their website"
 							link="https://www.fullswinggolf.com/kit-launch-monitor/"
-							imageLink="./Images/Projects/Launch Monitor.jpg"
+							imageLink="./Images/Projects/LaunchMonitor.jpg"
 						/>
 					</div>
 
@@ -195,7 +195,7 @@ return (
 			</div>
 
 			<Footer hasShadow = {true}/>
-		</body>
+		</div>
 	</>
 );};
 

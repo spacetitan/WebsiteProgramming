@@ -13,7 +13,7 @@ function Footer(props) {
         {
             footerContainer.style.boxShadow = "inset 0px 5px 10px -5px #0C1821";
         }
-    },[]);
+    },[hasShadow]);
 
     return (
         <div className='footerContainer' id='footerContainer'>
@@ -23,7 +23,7 @@ function Footer(props) {
             <p className="footerText">
                 Check me out on 
                 <button className="footerButton">
-                    <a href="https://www.linkedin.com/in/benjamin-navarro-162096182/" target="_blank" className="footerLink">LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/benjamin-navarro-162096182/" target="_blank" rel="noreferrer" className="footerLink">LinkedIn</a>
                 </button>
             </p>
 
@@ -42,7 +42,7 @@ function Footer(props) {
             </p>
 
             <p className="copyrightText">
-                Copyright © 2021 Benjamin Navarro - Aggressor Labs
+                Copyright © 2021 Benjamin Navarro - AggressorLabs
             </p>
         </div>
     )

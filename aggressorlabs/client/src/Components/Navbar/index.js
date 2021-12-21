@@ -15,8 +15,8 @@ const NavBar = () =>
             </NavBtn>
 
                 <NavMenu>
-                    <NavLink to='/portfolio' activeStyle>Portfolio</NavLink> |{" "}
-                    <NavLink to='/contact' activeStyle>Contact</NavLink>
+                    <NavLink to='/portfolio' activestyle="true">Portfolio</NavLink> |{" "}
+                    <NavLink to='/contact' activestyle="true">Contact</NavLink>
                 </NavMenu>
             </Nav>
         </>

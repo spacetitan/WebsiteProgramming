@@ -49,7 +49,7 @@ return (
 							body = "Implemented UI/UX for general navigation and to display data received from a sensor to a phone application."
 							link = "FullSwingLaunchMonitor"
 							linkText = "More Details"
-							imageLink = "./Images/Projects/Launch Monitor.jpg"
+							imageLink = "./Images/Projects/LaunchMonitor.jpg"
 						/>
 					</div>
 
