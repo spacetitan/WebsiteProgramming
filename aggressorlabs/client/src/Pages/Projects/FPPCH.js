@@ -14,7 +14,7 @@ return (
                 <div className="FPPCH-bodyContainer">
                     <div className="FPPCH-leftBox">
                         <div className="FPPCH-imageBox">
-                            <img src= "../Images/tempImage.png" className="FPPCH-projectImage" />
+                            <img src= "../Images/TempImage.png" className="FPPCH-projectImage" />
                         </div>
                     </div>
 
@@ -29,12 +29,14 @@ return (
                             A rundown of the design would be entering a similar building, but the further you go down, the stranger things would get.
                             I wanted a type of point and click, like Google Earth and GeoGuesser, and the rooms, items, and/or monsters would move when you do.
                             You would have to be alert to your surroundings and pay close attention while the setting hopefully keeps you immersed and on edge.
+                            <br/><br/>
+                            This is not in a presentable state.
                         </p>
                         
-                        <h3 className="FPPCH-linkTitle">Links:</h3>
+                        {/* <h3 className="FPPCH-linkTitle">Links:</h3>
                         <div className="FPPCH-linkDiv">
                             <a href="" className="FPPCH-link" target="_blank">GitHub Link</a>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

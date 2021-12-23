@@ -15,7 +15,7 @@ return (
                 <div className="TPMS-bodyContainer">
                     <div className="TPMS-leftBox">
                         <div className="TPMS-imageBox">
-                            <img src= "../Images/tempImage.png" className="TPMS-projectImage" />
+                            <img src= "../Images/Projects/TPMS.png" className="TPMS-projectImage" />
                         </div>
                     </div>
 
@@ -31,7 +31,7 @@ return (
                         
                         <h3 className="TPMS-linkTitle">Links:</h3>
                         <div className="TPMS-linkDiv">
-                            <a href="" className="TPMS-link" target="_blank">GitHub Link</a>
+                            <a href="https://github.com/spacetitan/TPSM" className="TPMS-link" target="_blank">GitHub Link</a>
                         </div>
                     </div>
                 </div>

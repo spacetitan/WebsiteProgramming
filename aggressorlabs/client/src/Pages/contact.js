@@ -15,27 +15,34 @@ const Contact = () => {
 
 	const [buttonPopup, setButtonPopup] = useState(false);
 
-	// function handleSubmit(e) 
-	// {
-	// 	e.preventDefault();
+	function handleSubmit(e) 
+	{
+		e.preventDefault();
 		
-	// 	fetch('http://localhost:3001/send', {
-	// 		method: "POST",
-	// 		body: JSON.stringify(contactInfo),
-	// 		headers: {
-	// 			'Accept': 'application/json',
-	// 			'Content-Type': 'application/json'
-	// 		},
-	// 		}).then(
-	// 		(response) => (response.json())
-	// 		).then((response)=> {
-	// 		if (response.status === 'success') {
-	// 		alert("Message Sent.");
-	// 		this.resetForm()
-	// 		} else if(response.status === 'fail') {
-	// 		alert("Message failed to send.")
-	// 		}
-	// 	})
+		fetch('http://localhost:3001/send', {
+			method: "POST",
+			body: JSON.stringify(contactInfo),
+			headers: {
+				'Accept': 'application/json',
+				'Content-Type': 'application/json'
+			},
+			}).then(
+			(response) => (response.json())
+			).then((response)=> {
+			if (response.status === 'success') {
+			alert("Message Sent.");
+			this.resetForm()
+			} else if(response.status === 'fail') {
+			alert("Message failed to send.")
+			}
+		})
+	}
+
+	// function handleSubmit(event) 
+	// {
+	// 	event.preventDefault();
+	// 	console.log(contactInfo);
+	// 	resetForm();
 	// }
 
 	function resetForm()
@@ -72,13 +79,6 @@ const Contact = () => {
 	{
 		contactInfo.message = event.target.value;
 	}
-	
-	function handleSubmit(event) 
-	{
-		event.preventDefault();
-		console.log(contactInfo);
-		resetForm();
-	}
 
 return (
 	<>
@@ -89,7 +89,6 @@ return (
 		<div>
 			<div className="contact-formBackground">
 				<div className="contact-formContainer">
-					{/* <form action="" className="contact-contactForm" onSubmit={this.handleSubmit.bind(this)} method="POST"> */}
 					<form action="" id="contact-contactForm" className="contact-contactForm" onSubmit={handleSubmit.bind(this)} method="POST">
 						<div className="contact-descriptionContainer">
 							<p className="contact-descriptionText">

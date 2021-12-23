@@ -16,7 +16,7 @@ return (
                 <div className="CowboyShooter-bodyContainer">
                     <div className="CowboyShooter-leftBox">
                         <div className="CowboyShooter-imageBox">
-                            <img src= "../Images/tempImage.png" className="CowboyShooter-projectImage" />
+                            <img src= "../Images/TempImage.png" className="CowboyShooter-projectImage" />
                         </div>
                     </div>
 
@@ -27,12 +27,16 @@ return (
                         <p className="CowboyShooter-projectDescription">
                             A game mode based off of a common shooter party game of 'One in the Chamber'.
                             You have can only load one bullet into your gun and killing an enemy instantly loads another bullet into your gun.
+                            <br/><br/>
+                            This is part of a Minigames Project.
+                            <br/>
+                            This is not in a presentable state.
                         </p>
                         
-                        <h3 className="CowboyShooter-linkTitle">Links:</h3>
+                        {/* <h3 className="CowboyShooter-linkTitle">Links:</h3>
                         <div className="CowboyShooter-linkDiv">
                             <a href="" className="CowboyShooter-link" target="_blank">GitHub Link</a>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

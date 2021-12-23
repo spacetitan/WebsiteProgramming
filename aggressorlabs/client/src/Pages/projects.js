@@ -108,17 +108,7 @@ return (
 							body = "A third person mech shooter with switchable loadouts that I have been working on off and on for years."
 							link = "TPMS"
 							linkText = "More Details"
-							imageLink = "./Images/tempImage.png"
-						/>
-					</div>
-
-					<div className="portfolio-cardContainer">
-						<PortfolioCards 
-							title = "FPPCH"
-							body = "A first person point and click horror game where everything moves when you do."
-							link = "FPPCH"
-							linkText = "More Details"
-							imageLink = "./Images/tempImage.png"
+							imageLink = "./Images/Projects/TPMS.png"
 						/>
 					</div>
 
@@ -128,7 +118,17 @@ return (
 							body = "A simple Minigame in which you try to push the other balls off a platform."
 							link = "BumperBalls"
 							linkText = "More Details"
-							imageLink = "./Images/tempImage.png"
+							imageLink = "../Images/Projects/BumperBalls.png"
+						/>
+					</div>
+
+					<div className="portfolio-cardContainer">
+						<PortfolioCards 
+							title = "FPPCH"
+							body = "A first person point and click horror game where everything moves when you do."
+							link = "FPPCH"
+							linkText = "More Details"
+							imageLink = "./Images/TempImage.png"
 						/>
 					</div>
 
@@ -138,7 +138,7 @@ return (
 							body = "A simple shooter where you only have one bullet."
 							link = "CowboyShooter"
 							linkText = "More Details"
-							imageLink = "./Images/tempImage.png"
+							imageLink = "./Images/TempImage.png"
 						/>
 					</div>
 					

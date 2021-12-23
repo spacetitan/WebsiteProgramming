@@ -14,7 +14,7 @@ return (
                 <div className="BumperBalls-bodyContainer">
                     <div className="BumperBalls-leftBox">
                         <div className="BumperBalls-imageBox">
-                            <img src= "../Images/tempImage.png" className="BumperBalls-projectImage" />
+                            <img src= "../Images/Projects/BumperBalls.png" className="BumperBalls-projectImage" />
                         </div>
                     </div>
 
@@ -24,12 +24,15 @@ return (
                         <h3 className="BumperBalls-descriptionTitle">Description:</h3>
                         <p className="BumperBalls-projectDescription">
                            A copy of the Mario Party Minigame where you play as a ball and the goal is to be the last one remaining on the platform.
-                           This project uses simple physics and AI for the other players.
+                           This project uses simple physics and AI for the other players. 
+
+                           <br/><br/>
+                           This is part of a Minigames Project.
                         </p>
                         
                         <h3 className="BumperBalls-linkTitle">Links:</h3>
                         <div className="BumperBalls-linkDiv">
-                            <a href="" className="BumperBalls-link" target="_blank">GitHub Link</a>
+                            <a href="https://github.com/spacetitan/MinigameProject" className="BumperBalls-link" target="_blank">GitHub Link</a>
                         </div>
                     </div>
                 </div>

@@ -60,7 +60,7 @@
     float: left;
 
     height: 100%;
-    width: 40%;
+    width: 50%;
 
     border: 1vh;
     border-radius: 1vh;
@@ -71,7 +71,7 @@
 .TPMS-imageBox
 {
     height: 80%;
-    width: 80%;
+    width: 90%;
     margin: auto;
     overflow: hidden;
         
@@ -97,7 +97,7 @@
     float: right;
 
     height: 100%;
-    width: 60%;
+    width: 50%;
 
     border: 1vh;
     border-radius: 1vh;
