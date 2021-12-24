@@ -1,5 +1,7 @@
 {
   "name": "aggressorlabs",
+  "homepage": "https://aggressorlabs.com/",
+  "proxy": "http://localhost:4146",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

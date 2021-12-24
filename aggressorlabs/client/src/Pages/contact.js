@@ -19,21 +19,26 @@ const Contact = () => {
 	{
 		e.preventDefault();
 		
-		fetch('http://localhost:3001/send', {
+		fetch('http://localhost:4146/send', 
+		{
 			method: "POST",
-			body: JSON.stringify(contactInfo),
-			headers: {
+			body: contactInfo,
+			headers: 
+			{
 				'Accept': 'application/json',
 				'Content-Type': 'application/json'
 			},
-			}).then(
-			(response) => (response.json())
-			).then((response)=> {
-			if (response.status === 'success') {
-			alert("Message Sent.");
-			this.resetForm()
-			} else if(response.status === 'fail') {
-			alert("Message failed to send.")
+		}).then
+		((response) => (response.json())).then((response)=> 
+		{
+			if (response.status === 'success') 
+			{
+				alert("Message Sent.");
+				this.resetForm()
+			} 
+			else if(response.status === 'fail') 
+			{
+				alert("Message failed to send.")
 			}
 		})
 	}

@@ -49,7 +49,7 @@ function App() {
       </Helmet>
 
 
-      <Router>
+      <Router basename='/'>
         <NavBar />
         <Wrapper>
           <Routes>
