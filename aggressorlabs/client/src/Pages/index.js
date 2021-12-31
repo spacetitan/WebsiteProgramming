@@ -11,7 +11,7 @@ return (
 	<>
 		<div className="index-header">
 			<h1 className="index-headerText">
-				Front-End Game Developer and Full Stack Web Developer
+				Front-End Game and Web Developer
 			</h1>
 			
 			<p className="index-subHeader">

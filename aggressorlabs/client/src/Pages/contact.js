@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { useForm } from 'react-hook-form';
+import emailjs from 'emailjs-com';
 import "./contact.css";
 
 import Footer from '../Components/Footer/Footer';
@@ -6,83 +8,46 @@ import Popup from '../Components/Tools/Popup';
 
 const Contact = () => {
 
-	var contactInfo = {
-		name: '',
-		email: '',
-		subject: '',
-		message: '',
-	};
-
 	const [buttonPopup, setButtonPopup] = useState(false);
 
-	function handleSubmit(e) 
+	const {
+		register,
+		handleSubmit,
+		reset,
+		formState: { errors }
+	} = useForm();
+	
+	const onSubmit = async (data) => 
 	{
-		e.preventDefault();
+		const { name, email, message } = data;  
 		
-		fetch('http://localhost:4146/send', 
-		{
-			method: "POST",
-			body: contactInfo,
-			headers: 
-			{
-				'Accept': 'application/json',
-				'Content-Type': 'application/json'
-			},
-		}).then
-		((response) => (response.json())).then((response)=> 
-		{
-			if (response.status === 'success') 
-			{
-				alert("Message Sent.");
-				this.resetForm()
-			} 
-			else if(response.status === 'fail') 
-			{
-				alert("Message failed to send.")
-			}
-		})
-	}
+		try {
+			const templateParams = {
+				name,
+				email,
+				message
+			};    
+			
+			await emailjs.send(
+				process.env.REACT_APP_SERVICE_ID,
+				process.env.REACT_APP_TEMPLATE_ID,
+				templateParams,
+				process.env.REACT_APP_USER_ID
+			);
 
-	// function handleSubmit(event) 
-	// {
-	// 	event.preventDefault();
-	// 	console.log(contactInfo);
-	// 	resetForm();
-	// }
+			resetForm();
+		} catch (e) {
+		  console.log(e);
+		}
+	};
 
 	function resetForm()
 	{
-		contactInfo.name = '';
-		contactInfo.email = '';
-		contactInfo.subject = '';
-		contactInfo.message = '';
-
-		document.getElementById("contact-nameInput").value = '';
-		document.getElementById("contact-emailInput").value = '';
-		document.getElementById("contact-subjectInput").value = '';
-		document.getElementById("contact-messageInput").value = '';
+		document.getElementById("name").value = '';
+		document.getElementById("email").value = '';
+		document.getElementById("message").value = '';
 
 		setButtonPopup(true);
-	}
-
-	function onNameChange(event) 
-	{
-		contactInfo.name = event.target.value;
-	}
-	
-	function onEmailChange(event) 
-	{
-		contactInfo.email = event.target.value;
-	}
-
-	function onSubjectChange(event)
-	{
-		contactInfo.subject = event.target.value;
-	}
-	
-	function onMessageChange(event) 
-	{
-		contactInfo.message = event.target.value;
 	}
 
 return (
@@ -94,7 +59,7 @@ return (
 		<div>
 			<div className="contact-formBackground">
 				<div className="contact-formContainer">
-					<form action="" id="contact-contactForm" className="contact-contactForm" onSubmit={handleSubmit.bind(this)} method="POST">
+					<form action="" id="contact-contactForm" className="contact-contactForm" onSubmit={handleSubmit(onSubmit)} noValidate>
 						<div className="contact-descriptionContainer">
 							<p className="contact-descriptionText">
 								Thanks for taking the time to reach out. How can I help you today?
@@ -110,17 +75,27 @@ return (
 								<label htmlFor="email" className="contact-emailLabel">Email</label>
 							</div>
 
-							<input type="text" id="contact-nameInput"  className="contact-nameInput"  onChange={onNameChange.bind(this)}/>
-							<input type="email" id="contact-emailInput" className="contact-emailInput" onChange={onEmailChange.bind(this)}/>
+							<input type="text" id="name"  className="contact-nameInput" {...register('name', {
+								required: { value: true, message: 'Please enter your name' },
+								maxLength: {
+								value: 30,
+								message: 'Please use 30 characters or less'
+								}
+							})} />
+
+							<input type="email" id="email" className="contact-emailInput" {...register('email', {
+								required: true,
+								pattern: /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/
+							})}/>
 						</div>
 
-						<div className="contact-subjectContainer">
+						{/* <div className="contact-subjectContainer">
 							<div className="contact-subjectLabelContainer">
 								<label htmlFor="subject" className="contact-subjectLabel">Subject</label>
 							</div>
 							
 							<input type="text" id="contact-subjectInput" className="contact-subjectInput" onChange={onSubjectChange.bind(this)}/>
-						</div>
+						</div> */}
 
 
 						<div className="contact-messegeContainer">
@@ -128,11 +103,13 @@ return (
 								<label htmlFor="message" className="contact-messegeLabel">Message</label>
 							</div>
 
-							<textarea name="" id="" cols="30" rows="10" id="contact-messageInput" className="contact-messageInput" onChange={onMessageChange.bind(this)}></textarea>
+							<textarea name="" cols="30" rows="10" id="message" className="contact-messageInput" {...register('message', {
+								required: true
+							})}></textarea>
 						</div>
 						
 						<div className="contact-buttonContainer">
-							<button type="submit" className="contact-submitButton" >Submit</button>
+							<button type="submit" className="contact-submitButton" onClick={handleSubmit}>Submit</button>
 						</div>
 					</form>
 				</div>

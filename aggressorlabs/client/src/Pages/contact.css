@@ -137,44 +137,10 @@
     height: 3vh;
 }
 
-.contact-subjectContainer
-{
-    margin: auto;
-    margin-top: 7vh;
-
-    height: 10%;
-    width: 65%;
-}
-
-.contact-subjectLabelContainer
-{
-    float: left;
-
-    width: 100%;
-}
-
-.contact-subjectLabel
-{
-    float: left;
-
-    font-size: 24px;
-}
-
-.contact-subjectInput
-{
-    float: left;
-
-    margin-top: 1vh;
-    padding-left: 10px;
-    text-align: left;
-
-    width: 85%;
-    height: 3vh;
-}
-
 .contact-messegeContainer
 {
     margin: auto;
+    margin-top: 7vh;
 
     height: 38%;
     width: 65%;
