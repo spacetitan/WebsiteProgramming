@@ -21,6 +21,8 @@
 
     color: #0C1821;
     background-color: #EDF2F4;
+
+    text-decoration: underline;
 }
 
 .TPMS-headerText
@@ -108,6 +110,7 @@
     padding-top: 5vh;
 
     text-align: left;
+    text-decoration: underline;
 
     font-size: 32px;
 }
@@ -147,6 +150,11 @@
 
     font-size: 24px;
     text-align: left;
+}
+
+.TPMS-link
+{
+    color: #540B0E;
 }
 
 .TPMS-linkDiv

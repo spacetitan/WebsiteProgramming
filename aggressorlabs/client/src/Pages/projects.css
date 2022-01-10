@@ -24,6 +24,7 @@
 .portfolio-headerText
 {
     padding-top: 5vh;
+    text-decoration: underline;
 }
 
 .portfolio-subHeader
@@ -31,17 +32,41 @@
     padding: 5vh;
 }
 
+.portfolio-resumeContainer
+{
+    padding-top: 5vh;
+}
+
+.portfolio-resumeContainer h1
+{
+    color: #EDF2F4;
+    text-decoration: underline;
+    padding-bottom: 1vh;
+}
+
+.portfolio-resumeContainer a
+{
+    color: #EDF2F4;
+    text-decoration: underline;
+}
+
+.portfolio-resumeContainer a:hover
+{
+    color: #0C1821;
+}
+
 .portfolio-releasedProjectsHeader
 {
     height: 5vh;
     margin: auto;
-    padding-top: 10vh;
+    padding-top: 5vh;
     text-align: center;
 }
 
 .portfolio-releasedProjectsHeader h1
 {
     color: #EDF2F4;
+    text-decoration: underline;
 }
 
 .portfolio-releasedProjectsBackground
@@ -94,6 +119,7 @@
 .portfolio-personalProjectsHeader h1
 {
     color: #EDF2F4;
+    text-decoration: underline;
 }
 
 .portfolio-personalProjectsContainer

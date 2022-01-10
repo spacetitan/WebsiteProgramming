@@ -21,6 +21,8 @@
 
     color: #0C1821;
     background-color: #EDF2F4;
+
+    text-decoration: underline;
 }
 
 .FPPCH-headerText
@@ -117,6 +119,7 @@
     padding-top: 5vh;
 
     text-align: left;
+    text-decoration: underline;
 
     font-size: 24px;
 }
@@ -147,6 +150,11 @@
 
     font-size: 24px;
     text-align: left;
+}
+
+.FPPCH-link:hover
+{
+    color: #540B0E;
 }
 
 .FPPCH-linkDiv

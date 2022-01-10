@@ -41,6 +41,9 @@ function App() {
   return (
     <>
       <Helmet>
+
+      <title>{ "Benjamin Navarro" }</title>
+
         <style className='style'>
           {
             'body { background-color : #EDF2F4; color: #0C1521; }'

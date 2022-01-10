@@ -1,10 +1,17 @@
 import React from 'react';
 import "./projects.css";
 
+import {saveAs} from "file-saver";
+
 import Footer from '../Components/Footer/Footer';
 import PortfolioCards from '../Components/Images/PortfolioCards/PortfolioCards';
 
 const Projects = () => {
+
+const saveFile = () => {
+	saveAs("/Navarro_Benjamin_Resume.pdf", "Navarro_Benjamin_Resume.pdf");
+}
+
 return (
 	<>
 		<div className="portfolio-header">
@@ -18,6 +25,11 @@ return (
 		<body className="portfolio-body">
 			<div className="portfolio-releasedProjectsBackground">
 				
+				<div className="portfolio-resumeContainer">
+					<h1>Resume</h1>
+					<a onClick={saveFile}>Resume PDF Download</a>
+				</div>
+
 				<div className="portfolio-releasedProjectsHeader">
 					<h1>Released Projects</h1>
 				</div>

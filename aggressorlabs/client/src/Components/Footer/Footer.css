@@ -1,6 +1,7 @@
 .footerContainer
 {
     width: 100%;
+    height: auto;
 
     color: #EDF2F4;
     background-color: #540B0E;
@@ -58,23 +59,9 @@
 .copyrightText
 {
     padding-top: 5vh;
+    padding-bottom: 5vh;
     font-size: 16px;
 
     color: #8D99AE;
 }
 
-@media screen and (max-width:1920px)
-{
-    .footerContainer
-    {
-        height: 40vh;
-    }
-}
-
-@media screen and (max-width:1366px)
-{
-    .footerContainer
-    {
-        height: 52vh;
-    }
-}

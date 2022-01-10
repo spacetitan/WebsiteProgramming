@@ -13,6 +13,10 @@ return (
 			<h1 className="index-headerText">
 				Front-End Game and Web Developer
 			</h1>
+
+			<h2 className="index-subHeaderText">
+				Benjamin Navarro
+			</h2>
 			
 			<p className="index-subHeader">
 				3 years industry experienced Software Engineer and  Game Developer specializing in UI/UX programming and implementation.
@@ -74,7 +78,7 @@ return (
 						<img className="index-skillImage" src="./Images/WDImage.png" alt="" />
 
 						<div className="index-skillHeader">
-							<h2>Full Stack Web Developer</h2>
+							<h2>Front End Web Developer</h2>
 						</div>
 						
 						<p className="index-experienceBlock">
@@ -124,7 +128,6 @@ return (
 						<li>The Stars</li>
 						<li>Hopefully a fog machine</li>
 						<li>Silk scarf</li>
-						<li>Alcohol</li>
 					</div>
 				</div>
 			</div>
@@ -186,7 +189,7 @@ return (
 					<div className="index-detailsButtonContainer">
 						<button className="index-moreDetailsButton">
 							<Link to="portfolio" className="index-moreDetailsLink">
-								Find out more details on the projects page {'>'}
+								Find out more details on the Portfolio page {'>'}
 							</Link>
 						</button>
 
