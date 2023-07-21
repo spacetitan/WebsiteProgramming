@@ -1,9 +1,8 @@
 .footerContainer
 {
     width: 100%;
-    height: auto;
+    height: 10%;
 
-    color: #EDF2F4;
     background-color: #540B0E;
 }
 
@@ -13,6 +12,8 @@
     padding-bottom: 5vh;
     height: 100px;
     width: 100px;
+
+    background-color: #540B0E;
 }
 
 .footerHeader
@@ -25,6 +26,7 @@
     font-size: 24px;
 
     color: #EDF2F4;
+    background-color: #540B0E;
 }
 
 .footerButton
@@ -40,20 +42,16 @@
     font-size: 24px;
 }
 
-.footerButton:hover
-{
-    background-color: #8D99AE;
-}
-
 .footerLink:link
 {
-    color: #EDF2F4;
+    color: #8D99AE;
     text-decoration: none;
+    background-color: transparent;
 }
 
 .footerLink:visited
 {
-    color: #8D99AE;
+    color: #551A8B;
 }
 
 .copyrightText
@@ -63,5 +61,6 @@
     font-size: 16px;
 
     color: #8D99AE;
+    background-color: #540B0E;
 }
 

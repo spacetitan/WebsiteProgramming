@@ -28,7 +28,7 @@ return (
 		</div>
 
 		<div className="index-body">
-			<div>
+			<div className="index-bodyHeaderBackground">
 				<h1 className="index-bodyHeader">
 					Ben says hi.
 				</h1>
@@ -57,17 +57,16 @@ return (
 
 						<h3>Related Languages</h3>
 
-						<p className="index-skillsBlock">C#, C++, Java</p>
+						<p className="index-skillsBlock">C#, C++, Javascript</p>
 
 						<h3>Tools</h3>
 
+						<li>Unity</li>
 						<li>Git</li>
-						<li>GitHub</li>
-						<li>GitLab</li>
+						<li>Git GUI Clients</li>
 						<li>PlasticSCM</li>
-						<li>Scriptable Object</li>
-						<li>Visual Studio</li>
-						<li>Jira</li>
+						<li>VSCode/Visual Studio</li>
+						<li>Jira/Trello</li>
 						<li>Slack</li>
 
 					</div>
@@ -78,7 +77,7 @@ return (
 						<img className="index-skillImage" src="./Images/WDImage.png" alt="" />
 
 						<div className="index-skillHeader">
-							<h2>Front End Web Developer</h2>
+							<h2>Web Developer</h2>
 						</div>
 						
 						<p className="index-experienceBlock">
@@ -88,7 +87,7 @@ return (
 						<h3>Related Languages</h3>
 
 						<p className="index-skillsBlock">
-							Javascript, HTML, CSS, PHP
+							Javascript, HTML5, CSS3, PHP
 						</p>
 
 						<h3>Libraries and Tools</h3>
@@ -101,7 +100,7 @@ return (
 						<li>Git</li>
 					</div>
 
-					<VertDivider />
+					{/* <VertDivider />
 
 					<div className="index-skillCard">	
 						<img className="index-skillImage" src="./Images/MUImage.png" alt="" />
@@ -128,7 +127,7 @@ return (
 						<li>The Stars</li>
 						<li>Hopefully a fog machine</li>
 						<li>Silk scarf</li>
-					</div>
+					</div> */}
 				</div>
 			</div>
 			
@@ -138,8 +137,8 @@ return (
 				<div className="index-worksContainer">
 					<div className="index-workCard">
 						<OverlayImages 
-							title = "Full Swing Golf Simulator" 
-							body="Worked on processing and tweaking satellite data to create terrain for courses, UI/UX implementation, parsing camera data for replay, and general programming."
+							title = "SCE Game Show" 
+							body=""
 							linkText="Check it out their website"
 							link="https://www.fullswinggolf.com/golf-simulator/"
 							imageLink="./Images/Projects/FullSwingGolfSimulator.jpg"
@@ -149,7 +148,7 @@ return (
 					<div className="index-workCard">
 						<OverlayImages 
 							title = "Full Swing Launch Monitor"
-							body="Implemented UI/UX for general navigation and to display data received from a sensor to a phone application."
+							body=""
 							linkText="Check it out their website"
 							link="https://www.fullswinggolf.com/kit-launch-monitor/"
 							imageLink="./Images/Projects/LaunchMonitor.jpg"
@@ -158,18 +157,18 @@ return (
 
 					<div className="index-workCard">
 						<OverlayImages 
-							title = "Poker GO Holdem" 
-							body="Worked on restructuring existing engine to work with a set of new rules, and assets. Also worked on implementing UI/UX and VFX as well as a lot of bug fixing caused by issues with outdated engine."
-							linkText="Check it out on the Google Play Store"
-							link="https://play.google.com/store/apps/details?id=com.PokerGO.Holdem&hl=en_US&gl=US"
-							imageLink="./Images/Projects/PokerGOHoldEm.png"
+							title = "Full Swing Golf Simulator" 
+							body=""
+							linkText="Check it out their website"
+							link="https://www.fullswinggolf.com/golf-simulator/"
+							imageLink="./Images/Projects/FullSwingGolfSimulator.jpg"
 						/>
 					</div>
 
 					<div className="index-workCard">
 						<OverlayImages 
 							title = "Osiris: New Dawn"
-							body="Focused on fixing game breaking issues after core system restructuring, new system additions and new asset introductions."
+							body=""
 							linkText="Check it out on Steam"
 							link="https://store.steampowered.com/app/402710/Osiris_New_Dawn/"
 							imageLink="./Images/Projects/OsirisNewDawn.jpg"
@@ -179,7 +178,7 @@ return (
 					<div className="index-workCard">
 						<OverlayImages 
 							title = "Maelstrom"
-							body="Worked on restructuring UI/UX for Controller support. Also worked on fulfilling requirement needed for a console release."
+							body=""
 							linkText="Check it out on Steam"
 							link="https://store.steampowered.com/app/764050/Maelstrom/"
 							imageLink="./Images/Projects/Maelstrom.jpg"

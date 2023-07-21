@@ -10,6 +10,7 @@ import Home from './Pages/index';
 import Projects from './Pages/projects.js';
 import FullSwingGolfSimulator from './Pages/Projects/FullSwingGolfSimulator';
 import FullSwingLaunchMonitor from './Pages/Projects/FullSwingLaunchMonitor';
+import SCEGameshow from './Pages/Projects/SCEGameshow';
 import PokerGoHoldEm from './Pages/Projects/PokerGoHoldEm';
 import OsirisNewDawn from './Pages/Projects/OsirisNewDawn';
 import Maelstrom from './Pages/Projects/Maelstrom';
@@ -58,6 +59,7 @@ function App() {
           <Routes>
             <Route path='/' element={<Home/>} />
             <Route path='/portfolio' element={<Projects/>} />
+            <Route path='/portfolio/SCEGameshow' exact element={<SCEGameshow/>} />
             <Route path='/portfolio/FullSwingGolfSimulator' exact element={<FullSwingGolfSimulator/>} />
             <Route path='/portfolio/FullSwingLaunchMonitor' exact element={<FullSwingLaunchMonitor/>} />
             <Route path='/portfolio/PokerGoHoldEm' exact element={<PokerGoHoldEm/>} />
@@ -68,7 +70,7 @@ function App() {
             <Route path='/portfolio/BumperBalls' exact element={<BumperBalls/>} />
             <Route path='/portfolio/CowboyShooter' exact element={<CowboyShooter/>} />
 
-            <Route path='/contact' element={<Contact/>} />
+            {/* <Route path='/contact' element={<Contact/>} /> */}
           </Routes>
         </Wrapper>
       </Router>

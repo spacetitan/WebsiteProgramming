@@ -24,17 +24,13 @@ return (
 
 		<body className="portfolio-body">
 			<div className="portfolio-releasedProjectsBackground">
-				
-				<div className="portfolio-resumeContainer">
-					<h1>Resume</h1>
-					<a onClick={saveFile}>Resume PDF Download</a>
-				</div>
 
-				<div className="portfolio-releasedProjectsHeader">
-					<h1>Released Projects</h1>
-				</div>
+				{/* <div className="portfolio-releasedProjectsHeader">
+						<h1>Previous Projects</h1>
+				</div> */}
 
 				<div className="portfolio-releasedProjectsContainer">
+
 					{/* <div className="portfolio-cardContainer">
 						<PortfolioCards 
 							title = "Template"
@@ -44,6 +40,16 @@ return (
 							imageLink = "./Images/tempImage.png"
 						/>
 					</div> */}
+
+					<div className="portfolio-cardContainer">
+						<PortfolioCards 
+							title = "SCE Gameshow"
+							body = ""
+							link = "SCEGameshow"
+							linkText = "More Details"
+							imageLink = "./Images/tempImage.png"
+						/>
+					</div>
 
 					<div className="portfolio-cardContainer">
 						<PortfolioCards 
@@ -96,7 +102,7 @@ return (
 					</div>
 				</div>
 			</div>
-			<div className="portfolio-personalProjectsBackground">
+			{/* <div className="portfolio-personalProjectsBackground">
 
 				<div className="portfolio-personalProjectsHeader">
 					<h1>Personal Projects</h1>
@@ -104,7 +110,7 @@ return (
 
 				<div className="portfolio-personalProjectsContainer">
 
-					{/* <div className="portfolio-cardContainer">
+					<div className="portfolio-cardContainer">
 						<PortfolioCards 
 							title = "Template"
 							body = "This is a template"
@@ -112,7 +118,7 @@ return (
 							linkText = "More Details"
 							imageLink = "./Images/tempImage.png"
 						/>
-					</div> */}
+					</div>
 
 					<div className="portfolio-cardContainer">
 						<PortfolioCards 
@@ -155,7 +161,12 @@ return (
 					</div>
 					
 				</div>
-			</div>
+			</div> */}
+
+				<div className="portfolio-resumeContainer">
+					<h1>Resume</h1>
+					<a onClick={saveFile}>PDF Download</a>
+				</div>
 			
 			
 			<Footer />

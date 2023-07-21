@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const Nav = styled.nav
 `
-background: #EDF2F4;
+background: #0C1821;
 height: 100px;
 width: 80%;
 display: flex;
@@ -13,7 +13,7 @@ z-index: 12;
 `;
 
 export const NavLink = styled(Link)`
-color: #0C1821;
+color: #EDF2F4;
 display: flex;
 align-items: center;
 text-decoration: none;
@@ -22,7 +22,7 @@ height: 100%;
 cursor: pointer;
 font-size: 24px;
 &.active {
-	color: #000000;
+	color: #EDF2F4;
 }
 `;
 
@@ -55,7 +55,7 @@ width: 100vw; */
 export const NavBtnLink = styled(Link)`
 border-radius: 4px;
 padding: 10px 15%;
-color: #000000;
+color: #EDF2F4;
 outline: none;
 border: none;
 cursor: pointer;

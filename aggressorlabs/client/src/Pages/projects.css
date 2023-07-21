@@ -25,6 +25,7 @@
 {
     padding-top: 5vh;
     text-decoration: underline;
+    color: #EDF2F4;
 }
 
 .portfolio-subHeader
@@ -35,6 +36,7 @@
 .portfolio-resumeContainer
 {
     padding-top: 5vh;
+    background-color: #540B0E;
 }
 
 .portfolio-resumeContainer h1
@@ -42,12 +44,14 @@
     color: #EDF2F4;
     text-decoration: underline;
     padding-bottom: 1vh;
+    background-color: #540B0E;
 }
 
 .portfolio-resumeContainer a
 {
     color: #EDF2F4;
     text-decoration: underline;
+    background-color: #540B0E;
 }
 
 .portfolio-resumeContainer a:hover
@@ -80,7 +84,7 @@
 
 .portfolio-releasedProjectsContainer
 {
-    background-color: #EDF2F4;
+    background-color: #0C1821;
 
     margin: auto;
     margin-top: 3vh;
