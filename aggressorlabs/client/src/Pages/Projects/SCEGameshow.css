@@ -3,13 +3,12 @@
     margin: 0%;
     padding: 0%;
 
-    color: #0C1821;
     font-family: Arial, Helvetica, sans-serif;
 
     text-align: center;
 }
 
-.template-header
+.SCEGameshow-header
 {
     margin: auto;
     padding-top: 5vh;
@@ -19,16 +18,20 @@
 
 	font-size: 24px;
 
-    color: #0C1821;
-    background-color: #EDF2F4;
+    text-decoration: underline;
+
+    color: #EDF2F4;
+    background-color: #0C1821;
 }
 
-.template-headerText
+.SCEGameshow-headerText
 {
     padding-top: 5vh;
+
+    color: #EDF2F4;
 }
 
-.template-bodybackground
+.SCEGameshow-bodybackground
 {
     background-color: #540B0E;
 
@@ -37,9 +40,9 @@
     padding: 5vh;
 }
 
-.template-bodyContainer
+.SCEGameshow-bodyContainer
 {
-    background-color: #EDF2F4;
+    background-color: #0C1821;
 
     height: 80%;
     width: 90%;
@@ -51,7 +54,7 @@
     border-radius: 1vh;
 }
 
-.template-leftBox
+.SCEGameshow-leftBox
 {
     float: left;
 
@@ -62,16 +65,16 @@
     border-radius: 1vh;
 }
 
-.template-projectImage
+.SCEGameshow-projectImage
 {
-    height: 400px;
-    width: 400px;
+    height: auto;
+    width: auto;
 
     margin: auto;
     margin-top: 5vh;
 }
 
-.template-rightBox
+.SCEGameshow-rightBox
 {
     float: right;
 
@@ -82,39 +85,49 @@
     border-radius: 1vh;
 }
 
-.template-projectTitle
+.SCEGameshow-projectTitle
 {
     padding-top: 5vh;
 
     text-align: left;
+
+    color: #EDF2F4;
 }
 
-.template-descriptionTitle
+.SCEGameshow-descriptionTitle
 {
     padding-top: 5vh;
 
     text-align: left;
+
+    color: #EDF2F4;
 }
 
-.template-projectDescription
+.SCEGameshow-projectDescription
 {
     padding-top: 1vh;
 
     text-align: left;
     margin-right: 10%;
+
+    color: #EDF2F4;
 }
 
-.template-linkTitle
+.SCEGameshow-linkTitle
 {
     padding-top: 5vh;
 
     text-align: left;
+
+    color: #EDF2F4;
 }
 
-.template-link
+.SCEGameshow-link
 {
     padding-top: 1vh;
 
     float: left;
     margin-left: 0;
+
+    color: #EDF2F4;
 }

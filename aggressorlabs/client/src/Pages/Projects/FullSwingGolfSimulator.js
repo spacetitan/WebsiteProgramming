@@ -31,13 +31,13 @@ return (
                         
                         <h3 className="FSGS-linkTitle">Links:</h3>
                         <div className="FSGS-linkDiv">
-                            <a href="https://www.youtube.com/watch?v=YZvCHaoGK_I" className="FSGS-link" target="_blank">Check out this video</a>
+                            <a href="https://www.youtube.com/watch?v=YZvCHaoGK_I" className="FSGS-link" target="_blank" rel="noreferrer">Check out this video</a>
                         </div>
                         <div className="FSGS-linkDiv">
                             <p className="FSGS-or">-or-</p>
                         </div>
                         <div className="FSGS-linkDiv">
-                            <a href="https://www.fullswinggolf.com/golf-simulator/" className="FSGS-link" target="_blank">Check out their website</a>
+                            <a href="https://www.fullswinggolf.com/golf-simulator/" className="FSGS-link" target="_blank" rel="noreferrer">Check out their website</a>
                         </div>
                     </div>
                 </div>

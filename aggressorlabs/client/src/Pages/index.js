@@ -138,10 +138,10 @@ return (
 					<div className="index-workCard">
 						<OverlayImages 
 							title = "SCE Game Show" 
-							body=""
-							linkText="Check it out their website"
-							link="https://www.fullswinggolf.com/golf-simulator/"
-							imageLink="./Images/Projects/FullSwingGolfSimulator.jpg"
+							body="Collab w/ SCE on team building Gameshow!"
+							linkText="Check it out!"
+							link="/portfolio/SCEGameshow"
+							imageLink="./Images/tempImage.png"
 						/>
 					</div>
 
@@ -150,7 +150,7 @@ return (
 							title = "Full Swing Launch Monitor"
 							body=""
 							linkText="Check it out their website"
-							link="https://www.fullswinggolf.com/kit-launch-monitor/"
+							link="/portfolio"
 							imageLink="./Images/Projects/LaunchMonitor.jpg"
 						/>
 					</div>
@@ -160,7 +160,7 @@ return (
 							title = "Full Swing Golf Simulator" 
 							body=""
 							linkText="Check it out their website"
-							link="https://www.fullswinggolf.com/golf-simulator/"
+							link="/portfolio"
 							imageLink="./Images/Projects/FullSwingGolfSimulator.jpg"
 						/>
 					</div>
@@ -170,7 +170,7 @@ return (
 							title = "Osiris: New Dawn"
 							body=""
 							linkText="Check it out on Steam"
-							link="https://store.steampowered.com/app/402710/Osiris_New_Dawn/"
+							link="/portfolio"
 							imageLink="./Images/Projects/OsirisNewDawn.jpg"
 						/>
 					</div>
@@ -180,7 +180,7 @@ return (
 							title = "Maelstrom"
 							body=""
 							linkText="Check it out on Steam"
-							link="https://store.steampowered.com/app/764050/Maelstrom/"
+							link="/portfolio"
 							imageLink="./Images/Projects/Maelstrom.jpg"
 						/>
 					</div>

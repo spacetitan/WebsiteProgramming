@@ -18,7 +18,7 @@ function Footer(props) {
     return (
         <div className='footerContainer' id='footerContainer'>
 
-            <img  src="../Images/Logo512Dark.png" alt="" className="footerLogo" />
+            {/* <img  src="../Images/Logo512Dark.png" alt="" className="footerLogo" /> */}
 
             <p className="footerText">
                 Check me out on 

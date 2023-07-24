@@ -3,7 +3,6 @@
     margin: 0%;
     padding: 0%;
 
-    color: #0C1821;
     font-family: Arial, Helvetica, sans-serif;
 
     text-align: center;
@@ -19,8 +18,8 @@
 
 	font-size: 24px;
 
-    color: #0C1821;
-    background-color: #EDF2F4;
+    color: #EDF2F4;
+    background-color: #0C1821;
 
     text-decoration: underline;
 }
@@ -28,6 +27,7 @@
 .Osiris-headerText
 {
     padding-top: 5vh;
+    color: #EDF2F4;
 }
 
 .Osiris-bodybackground
@@ -43,7 +43,7 @@
 
 .Osiris-bodyContainer
 {
-    background-color: #EDF2F4;
+    background-color: #0C1820;
 
     height: 80%;
     width: 90%;
@@ -113,6 +113,8 @@
     text-decoration: underline;
 
     font-size: 32px;
+
+    color: #EDF2F4;
 }
 
 .Osiris-descriptionTitle
@@ -122,6 +124,8 @@
     text-align: left;
 
     font-size: 24px;
+
+    color: #EDF2F4;
 }
 
 .Osiris-projectDescription
@@ -132,6 +136,8 @@
     margin-right: 10%;
 
     font-size: 18px;
+
+    color: #EDF2F4;
 }
 
 .Osiris-linkTitle
@@ -141,6 +147,8 @@
     text-align: left;
 
     font-size: 24px;
+
+    color: #EDF2F4;
 }
 
 .Osiris-link
@@ -150,6 +158,8 @@
 
     font-size: 24px;
     text-align: left;
+
+    color: #EDF2F4;
 }
 
 .Osiris-link:hover
@@ -170,6 +180,8 @@
 {
     font-size: 22px;
     text-align: left;
+
+    color: #EDF2F4;
 }
 
 @media screen and (max-width:1920px)

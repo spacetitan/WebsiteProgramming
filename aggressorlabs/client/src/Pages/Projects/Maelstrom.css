@@ -3,7 +3,6 @@
     margin: 0%;
     padding: 0%;
 
-    color: #0C1821;
     font-family: Arial, Helvetica, sans-serif;
 
     text-align: center;
@@ -19,14 +18,16 @@
 
 	font-size: 24px;
 
-    color: #0C1821;
-    background-color: #EDF2F4;
+    color: #EDF2F4;
+    background-color: #0C1821;
     text-decoration: underline;
 }
 
 .Maelstrom-headerText
 {
     padding-top: 5vh;
+
+    color: #EDF2F4;
 }
 
 .Maelstrom-bodybackground
@@ -42,7 +43,7 @@
 
 .Maelstrom-bodyContainer
 {
-    background-color: #EDF2F4;
+    background-color: #0C1821;
 
     height: 80%;
     width: 90%;
@@ -112,6 +113,8 @@
     text-decoration: underline;
 
     font-size: 32px;
+
+    color: #EDF2F4;
 }
 
 .Maelstrom-descriptionTitle
@@ -121,6 +124,8 @@
     text-align: left;
 
     font-size: 24px;
+
+    color: #EDF2F4;
 }
 
 .Maelstrom-projectDescription
@@ -131,6 +136,8 @@
     margin-right: 10%;
 
     font-size: 18px;
+
+    color: #EDF2F4;
 }
 
 .Maelstrom-linkTitle
@@ -140,6 +147,8 @@
     text-align: left;
 
     font-size: 24px;
+
+    color: #EDF2F4;
 }
 
 .Maelstrom-link
@@ -149,6 +158,8 @@
 
     font-size: 24px;
     text-align: left;
+
+    color: #EDF2F4;
 }
 
 .Maelstrom-link:hover
@@ -169,6 +180,8 @@
 {
     font-size: 22px;
     text-align: left;
+
+    color: #EDF2F4;
 }
 
 @media screen and (max-width:1920px)

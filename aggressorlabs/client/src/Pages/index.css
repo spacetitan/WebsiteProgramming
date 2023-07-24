@@ -13,6 +13,7 @@
 {
     margin: auto;
     width: 60%;
+    height: auto;
 
 	font-size: 24px;
 
@@ -70,7 +71,7 @@
     padding-top: 20px;
 
     color: #EDF2F4;
-    background-color: #540B0E;
+    background-color: transparent;
     
 }
 
@@ -82,7 +83,7 @@
     margin: auto;
 
     color: #EDF2F4;
-    background-color: #540B0E;
+    background-color: transparent;
 
     font-size: 18px;
 }
@@ -99,6 +100,7 @@
     margin: auto;
 
     width: 85%;
+    height: auto;
 
     border: 1vh;
     border-radius: 1vh;
@@ -182,7 +184,7 @@
 {
     color: #0C1821;
 
-    height: 110vh;
+    height: auto;
 
     border: 1px;
     box-shadow: 15px 15px 0px #0C1821;
@@ -222,7 +224,7 @@
 
 .index-detailsButtonContainer
 {
-    height: 75px;
+    height: auto;
     width: 100%;
 
     padding-top: 5vh;
@@ -266,7 +268,7 @@
 {
     .index-body
     {
-        height: 330vh;
+        height: auto;
     }
 
     .index-skillContainer
@@ -300,7 +302,7 @@
 {
     .index-body
     {
-        height: 345vh;
+        height: auto;
     }
 
     .index-skillContainer

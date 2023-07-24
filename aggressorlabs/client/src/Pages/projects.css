@@ -3,10 +3,11 @@
     margin: 0%;
     padding: 0%;
 
-    color: #0C1821;
     font-family: Arial, Helvetica, sans-serif;
 
     text-align: center;
+
+    background-color: #0C1821;
 }
 
 .portfolio-header
@@ -16,9 +17,6 @@
     width: 60%;
 
 	font-size: 24px;
-
-    color: #0C1821;
-    background-color: #EDF2F4;
 }
 
 .portfolio-headerText
@@ -44,14 +42,14 @@
     color: #EDF2F4;
     text-decoration: underline;
     padding-bottom: 1vh;
-    background-color: #540B0E;
+    background-color: transparent;
 }
 
 .portfolio-resumeContainer a
 {
     color: #EDF2F4;
     text-decoration: underline;
-    background-color: #540B0E;
+    background-color: transparent;
 }
 
 .portfolio-resumeContainer a:hover
@@ -128,7 +126,7 @@
 
 .portfolio-personalProjectsContainer
 {
-    background-color: #EDF2F4;
+    background-color: transparent;
 
     margin: auto;
     margin-top: 5vh;

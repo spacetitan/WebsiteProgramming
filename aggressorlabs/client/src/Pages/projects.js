@@ -44,7 +44,7 @@ return (
 					<div className="portfolio-cardContainer">
 						<PortfolioCards 
 							title = "SCE Gameshow"
-							body = ""
+							body = "Collaborated with a Southern California Edison engineer to build a team building excersice for the local office."
 							link = "SCEGameshow"
 							linkText = "More Details"
 							imageLink = "./Images/tempImage.png"

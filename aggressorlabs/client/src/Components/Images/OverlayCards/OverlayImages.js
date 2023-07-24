@@ -18,7 +18,7 @@ return(
 
             <p>{checkBody}</p>
 
-            <a href={checkLink} target="_blank" className="overlayImage-workLink"><button className="overlayImage-linkButton">{checkLinkText}</button></a>
+            <a href={checkLink} className="overlayImage-workLink"><button className="overlayImage-linkButton">{checkLinkText}</button></a>
             
         </div>
     </div>
