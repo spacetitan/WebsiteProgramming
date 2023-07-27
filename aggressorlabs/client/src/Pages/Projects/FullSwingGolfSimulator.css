@@ -1,14 +1,3 @@
-*
-{
-    margin: 0%;
-    padding: 0%;
-
-    color: #EDF2F4;
-    font-family: Arial, Helvetica, sans-serif;
-
-    text-align: center;
-}
-
 .FSGS-header
 {
     margin: auto;
@@ -17,15 +6,19 @@
     height: auto;
     width: 60%;
 
-    color: #EDF2F4;
-    text-decoration: underline;
 	font-size: 24px;
+
+    text-decoration: underline;
+
+    color: #EDF2F4;
+    background-color: #0C1821;
 }
 
 .FSGS-headerText
 {
-    color: #EDF2F4;
     padding-top: 5vh;
+
+    color: #EDF2F4;
 }
 
 .FSGS-bodybackground
@@ -35,12 +28,26 @@
     height: 70vh;
 
     padding: 5vh;
+}
 
-    box-shadow: inset 0px 5px 10px -5px #0C1821;
+.FSGS-backButtonContainer
+{
+    background-color: transparent;
+
+    height: auto;
+    width: auto;
+
+    padding-top: 1%;
+    margin-left: 2%;
+
+    text-align: left;
 }
 
 .FSGS-bodyContainer
 {
+    background-color: #0C1821;
+
+    height: 70%;
     width: 90%;
 
     margin: auto;
@@ -48,8 +55,6 @@
 
     border: 1vh;
     border-radius: 1vh;
-
-    box-shadow: 5px 5px 10px #0C1821;
 }
 
 .FSGS-leftBox
@@ -62,33 +67,15 @@
     border: 1vh;
     border-radius: 1vh;
 
-    margin: auto;
-
-    background-color: #0C1821;
-}
-
-.FSGS-imageBox
-{
-    height: 80%;
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-
     display: flex;
     justify-content: center;
-
-    padding-top: 7%;
+    align-items: center;
 }
 
 .FSGS-projectImage
 {
-    position:relative;
-    
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 100%;
-    width: auto;
+    height: auto;
+    width: 90%;
 }
 
 .FSGS-rightBox
@@ -104,23 +91,20 @@
 
 .FSGS-projectTitle
 {
-    padding-top: 5vh;
-
     text-align: left;
-    text-decoration: underline;
-
-    font-size: 32px;
 
     color: #EDF2F4;
+
+    background-color: transparent;
 }
 
 .FSGS-descriptionTitle
 {
-    padding-top: 5vh;
+    padding-top: 2vh;
 
     text-align: left;
 
-    font-size: 24px;
+    color: #EDF2F4;
 }
 
 .FSGS-projectDescription
@@ -129,8 +113,6 @@
 
     text-align: left;
     margin-right: 10%;
-
-    font-size: 18px;
 
     color: #EDF2F4;
 }
@@ -141,7 +123,7 @@
 
     text-align: left;
 
-    font-size: 24px;
+    color: #EDF2F4;
 }
 
 .FSGS-link
@@ -149,25 +131,15 @@
     float: left;
     margin-left: 0;
 
-    text-align: left;
-
     color: #EDF2F4;
-}
-
-.FSGS-link:hover
-{
-    color: #540B0E;
-}
-
-.FSGS-linkDiv
-{
-    margin: auto;
-    margin-left: 0;
 }
 
 .FSGS-or
 {
+    font-size: 22px;
     text-align: left;
+    
+    padding-bottom: 1vh;
 
     color: #EDF2F4;
 }

@@ -13,6 +13,10 @@ return (
         <body>
             <div className="FSGS-bodybackground">
                 <div className="FSGS-bodyContainer">
+                    <div className="FSGS-backButtonContainer">
+                        <a href="/portfolio" className="FSGS-backButton">{String.fromCharCode(8592)}Back to portfolio</a>
+                    </div>
+
                     <div className="FSGS-leftBox">
                         <div className="FSGS-imageBox">
                             <img src= "../Images/Projects/FullSwingGolfSimulator.jpg" className="FSGS-projectImage" />

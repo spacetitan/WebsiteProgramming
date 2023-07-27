@@ -135,7 +135,7 @@ return (
 				<h1>Previous Works</h1>
 
 				<div className="index-worksContainer">
-					<div className="index-workCard">
+					{/* <div className="index-workCard">
 						<OverlayImages 
 							title = "SCE Game Show" 
 							body="Collab w/ SCE on team building Gameshow!"
@@ -143,14 +143,14 @@ return (
 							link="/portfolio/SCEGameshow"
 							imageLink="./Images/tempImage.png"
 						/>
-					</div>
+					</div> */}
 
 					<div className="index-workCard">
 						<OverlayImages 
 							title = "Full Swing Launch Monitor"
 							body=""
 							linkText="Check it out their website"
-							link="/portfolio"
+							link="/portfolio/FullSwingLaunchMonitor"
 							imageLink="./Images/Projects/LaunchMonitor.jpg"
 						/>
 					</div>
@@ -160,7 +160,7 @@ return (
 							title = "Full Swing Golf Simulator" 
 							body=""
 							linkText="Check it out their website"
-							link="/portfolio"
+							link="/portfolio/FullSwingGolfSimulator"
 							imageLink="./Images/Projects/FullSwingGolfSimulator.jpg"
 						/>
 					</div>
@@ -170,7 +170,7 @@ return (
 							title = "Osiris: New Dawn"
 							body=""
 							linkText="Check it out on Steam"
-							link="/portfolio"
+							link="/portfolio/OsirisNewDawn"
 							imageLink="./Images/Projects/OsirisNewDawn.jpg"
 						/>
 					</div>
@@ -180,7 +180,7 @@ return (
 							title = "Maelstrom"
 							body=""
 							linkText="Check it out on Steam"
-							link="/portfolio"
+							link="/portfolio/Maelstrom"
 							imageLink="./Images/Projects/Maelstrom.jpg"
 						/>
 					</div>

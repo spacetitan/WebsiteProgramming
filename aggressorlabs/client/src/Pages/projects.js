@@ -41,7 +41,7 @@ return (
 						/>
 					</div> */}
 
-					<div className="portfolio-cardContainer">
+					{/* <div className="portfolio-cardContainer">
 						<PortfolioCards 
 							title = "SCE Gameshow"
 							body = "Collaborated with a Southern California Edison engineer to build a team building excersice for the local office."
@@ -49,7 +49,7 @@ return (
 							linkText = "More Details"
 							imageLink = "./Images/tempImage.png"
 						/>
-					</div>
+					</div> */}
 
 					<div className="portfolio-cardContainer">
 						<PortfolioCards 
