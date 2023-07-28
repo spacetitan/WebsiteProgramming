@@ -73,16 +73,6 @@ return (
 
 					<div className="portfolio-cardContainer">
 						<PortfolioCards 
-							title = "Poker GO Holdem"
-							body = "Worked on restructuring existing engine to work with a set of new rules, and assets. Also worked on implementing UI/UX and VFX as well as a lot of bug fixing caused by issues with outdated engine."
-							link = "PokerGoHoldEm"
-							linkText = "More Details"
-							imageLink = "./Images/Projects/PokerGOHoldEm.png"
-						/>
-					</div>
-
-					<div className="portfolio-cardContainer">
-						<PortfolioCards 
 							title = "Osiris: New Dawn"
 							body = "Focused on fixing game breaking issues after core system restructuring, new system additions and new asset introductions."
 							link = "OsirisNewDawn"
@@ -98,6 +88,16 @@ return (
 							link = "Maelstrom"
 							linkText = "More Details"
 							imageLink = "./Images/Projects/Maelstrom.jpg"
+						/>
+					</div>
+
+					<div className="portfolio-cardContainer">
+						<PortfolioCards 
+							title = "Poker GO Holdem"
+							body = "Worked on restructuring existing engine to work with a set of new rules, and assets. Also worked on implementing UI/UX and VFX as well as a lot of bug fixing caused by issues with outdated engine."
+							link = "PokerGoHoldEm"
+							linkText = "More Details"
+							imageLink = "./Images/Projects/PokerGOHoldEm.png"
 						/>
 					</div>
 				</div>

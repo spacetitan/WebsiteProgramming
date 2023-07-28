@@ -13,6 +13,9 @@ return (
         <body>
             <div className="Maelstrom-bodybackground">
                 <div className="Maelstrom-bodyContainer">
+                    <div className="Maelstrom-backButtonContainer">
+                        <a href="/portfolio" className="Maelstrom-backButton">{String.fromCharCode(8592)}Back to portfolio</a>
+                    </div>
                     <div className="Maelstrom-leftBox">
                         <div className="Maelstrom-imageBox">
                             <YoutubeEmbed embedId='9trTL695qf8' />

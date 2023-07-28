@@ -13,6 +13,10 @@ return (
         <body>
             <div className="FSLM-bodybackground">
                 <div className="FSLM-bodyContainer">
+                    <div className="FSLM-backButtonContainer">
+                        <a href="/portfolio" className="FSLM-backButton">{String.fromCharCode(8592)}Back to portfolio</a>
+                    </div>
+
                     <div className="FSLM-leftBox">
                         <div className="FSLM-imageBox">
                             <img src= "../Images/Projects/LaunchMonitor.jpg" className="FSLM-projectImage" />

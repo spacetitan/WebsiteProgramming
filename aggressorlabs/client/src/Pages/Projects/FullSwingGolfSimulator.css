@@ -28,6 +28,8 @@
     height: 70vh;
 
     padding: 5vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
 }
 
 .FSGS-backButtonContainer
@@ -47,11 +49,11 @@
 {
     background-color: #0C1821;
 
-    height: 70%;
+    height: 80%;
     width: 90%;
 
     margin: auto;
-    justify-content: center;
+    margin-top: 2%;
 
     border: 1vh;
     border-radius: 1vh;
@@ -61,11 +63,8 @@
 {
     float: left;
 
-    height: 100%;
+    height: 80%;
     width: 40%;
-
-    border: 1vh;
-    border-radius: 1vh;
 
     display: flex;
     justify-content: center;
@@ -82,11 +81,8 @@
 {
     float: right;
 
-    height: 100%;
+    height: 80%;
     width: 60%;
-
-    border: 1vh;
-    border-radius: 1vh;
 }
 
 .FSGS-projectTitle
@@ -126,6 +122,12 @@
     color: #EDF2F4;
 }
 
+.FSGS-linkDiv
+{
+    width: 100%;
+    height: 10%;
+}
+
 .FSGS-link
 {
     float: left;
@@ -138,13 +140,11 @@
 {
     font-size: 22px;
     text-align: left;
-    
-    padding-bottom: 1vh;
 
     color: #EDF2F4;
 }
 
-@media screen and (max-width:1920px)
+/* @media screen and (max-width:1920px)
 {
     .FSGS-bodyContainer
     {
@@ -190,4 +190,4 @@
     {
         font-size: 18px;
     }
-}
+} */

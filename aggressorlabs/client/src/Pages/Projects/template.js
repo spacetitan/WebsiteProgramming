@@ -15,6 +15,10 @@ return (
     <body>
         <div className="template-bodybackground">
             <div className="template-bodyContainer">
+                <div className="template-backButtonContainer">
+                        <a href="/portfolio" className="template-backButton">{String.fromCharCode(8592)}Back to portfolio</a>
+                </div>
+
                 <div className="template-leftBox">
                     <img src="./Images/tempImage.png" alt="" className="template-projectImage" />
                 </div>

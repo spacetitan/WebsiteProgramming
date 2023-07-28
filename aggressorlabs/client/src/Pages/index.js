@@ -149,7 +149,7 @@ return (
 						<OverlayImages 
 							title = "Full Swing Launch Monitor"
 							body=""
-							linkText="Check it out their website"
+							linkText="Check it out!"
 							link="/portfolio/FullSwingLaunchMonitor"
 							imageLink="./Images/Projects/LaunchMonitor.jpg"
 						/>
@@ -159,7 +159,7 @@ return (
 						<OverlayImages 
 							title = "Full Swing Golf Simulator" 
 							body=""
-							linkText="Check it out their website"
+							linkText="Check it out!"
 							link="/portfolio/FullSwingGolfSimulator"
 							imageLink="./Images/Projects/FullSwingGolfSimulator.jpg"
 						/>
@@ -169,7 +169,7 @@ return (
 						<OverlayImages 
 							title = "Osiris: New Dawn"
 							body=""
-							linkText="Check it out on Steam"
+							linkText="Check it out!"
 							link="/portfolio/OsirisNewDawn"
 							imageLink="./Images/Projects/OsirisNewDawn.jpg"
 						/>
@@ -179,20 +179,20 @@ return (
 						<OverlayImages 
 							title = "Maelstrom"
 							body=""
-							linkText="Check it out on Steam"
+							linkText="Check it out!"
 							link="/portfolio/Maelstrom"
 							imageLink="./Images/Projects/Maelstrom.jpg"
 						/>
 					</div>
 
-					<div className="index-detailsButtonContainer">
+					{/* <div className="index-detailsButtonContainer">
 						<button className="index-moreDetailsButton">
 							<Link to="portfolio" className="index-moreDetailsLink">
 								Find out more details on the Portfolio page {'>'}
 							</Link>
 						</button>
 
-					</div>
+					</div> */}
 				</div>
 			</div>
 

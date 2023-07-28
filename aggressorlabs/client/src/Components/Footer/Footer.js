@@ -34,12 +34,12 @@ function Footer(props) {
                 </button>
             </p>
 
-            <p className="footerText">
+            {/* <p className="footerText">
                 Send a message in the form on the 
                 <button className="footerButton">
                     <Link to="/contact" className="footerLink">Contact Page</Link>
                 </button>
-            </p>
+            </p> */}
 
             <p className="copyrightText">
                 Copyright © 2021 Benjamin Navarro - AggressorLabs

@@ -13,6 +13,11 @@ return (
         <body>
             <div className="PokerGo-bodybackground">
                 <div className="PokerGo-bodyContainer">
+
+                    <div className="PokerGo-backButtonContainer">
+                        <a href="/portfolio" className="PokerGo-backButton">{String.fromCharCode(8592)}Back to portfolio</a>
+                    </div>
+
                     <div className="PokerGo-leftBox">
                         <div className="PokerGo-imageBox">
                             <img src= "../Images/Projects/PokerGOHoldEm.png" className="PokerGo-projectImage" />
@@ -32,7 +37,7 @@ return (
                         
                         <h3 className="PokerGo-linkTitle">Link:</h3>
                         <div className="PokerGo-linkDiv">
-                            <a href="https://play.google.com/store/apps/details?id=com.PokerGO.Holdem&hl=en_US&gl=US" className="PokerGo-link" target="_blank">Check it out on the Google Play Store</a>
+                            <a href="https://play.google.com/store/apps/details?id=com.PokerGO.Holdem&hl=en_US&gl=US" className="PokerGo-link" target="_blank">No longer available</a>
                         </div>
                     </div>
                 </div>

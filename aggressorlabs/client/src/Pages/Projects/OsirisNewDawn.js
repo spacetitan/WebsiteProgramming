@@ -14,6 +14,10 @@ return (
         <body>
             <div className="Osiris-bodybackground">
                 <div className="Osiris-bodyContainer">
+                    <div className="Osiris-backButtonContainer">
+                        <a href="/portfolio" className="Osiris-backButton">{String.fromCharCode(8592)}Back to portfolio</a>
+                    </div>
+                    
                     <div className="Osiris-leftBox">
                         <div className="Osiris-imageBox">
                             <YoutubeEmbed embedId='rV92cnscEzI' />

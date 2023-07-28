@@ -8,15 +8,16 @@
 
 	font-size: 24px;
 
+    text-decoration: underline;
+
     color: #EDF2F4;
     background-color: #0C1821;
-
-    text-decoration: underline;
 }
 
 .Osiris-headerText
 {
     padding-top: 5vh;
+
     color: #EDF2F4;
 }
 
@@ -27,37 +28,47 @@
     height: 70vh;
 
     padding: 5vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
 
-    box-shadow: inset 0px 5px 10px -5px #0C1821;
+.Osiris-backButtonContainer
+{
+    background-color: transparent;
+
+    height: auto;
+    width: auto;
+
+    padding-top: 1%;
+    margin-left: 2%;
+
+    text-align: left;
 }
 
 .Osiris-bodyContainer
 {
-    background-color: #0C1820;
+    background-color: #0C1821;
 
     height: 80%;
     width: 90%;
 
     margin: auto;
-    justify-content: center;
+    margin-top: 2%;
 
     border: 1vh;
     border-radius: 1vh;
-
-    box-shadow: 5px 5px 10px #0C1821;
 }
 
 .Osiris-leftBox
 {
     float: left;
 
-    height: 100%;
-    width: 50%;
+    height: 80%;
+    width: 40%;
 
-    border: 1vh;
-    border-radius: 1vh;
-
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Osiris-imageBox
@@ -73,47 +84,28 @@
     padding-top: 7%;
 }
 
-.Osiris-projectImage
-{
-    position:relative;
-    
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 100%;
-    width: auto;
-}
-
 .Osiris-rightBox
 {
     float: right;
 
-    height: 100%;
-    width: 50%;
-
-    border: 1vh;
-    border-radius: 1vh;
+    height: 80%;
+    width: 60%;
 }
 
 .Osiris-projectTitle
 {
-    padding-top: 5vh;
-
     text-align: left;
-    text-decoration: underline;
-
-    font-size: 32px;
 
     color: #EDF2F4;
+
+    background-color: transparent;
 }
 
 .Osiris-descriptionTitle
 {
-    padding-top: 5vh;
+    padding-top: 2vh;
 
     text-align: left;
-
-    font-size: 24px;
 
     color: #EDF2F4;
 }
@@ -125,8 +117,6 @@
     text-align: left;
     margin-right: 10%;
 
-    font-size: 18px;
-
     color: #EDF2F4;
 }
 
@@ -136,9 +126,13 @@
 
     text-align: left;
 
-    font-size: 24px;
-
     color: #EDF2F4;
+}
+
+.Osiris-linkDiv
+{
+    width: 100%;
+    height: 10%;
 }
 
 .Osiris-link
@@ -146,24 +140,7 @@
     float: left;
     margin-left: 0;
 
-    font-size: 24px;
-    text-align: left;
-
     color: #EDF2F4;
-}
-
-.Osiris-link:hover
-{
-    color: #540B0E;
-}
-
-.Osiris-linkDiv
-{
-    height: 4vh;
-    width: 30%;
-
-    margin: auto;
-    margin-left: 0;
 }
 
 .Osiris-or
@@ -174,7 +151,7 @@
     color: #EDF2F4;
 }
 
-@media screen and (max-width:1920px)
+/* @media screen and (max-width:1920px)
 {
     .Osiris-bodyContainer
     {
@@ -220,4 +197,4 @@
     {
         font-size: 18px;
     }
-}
+} */
