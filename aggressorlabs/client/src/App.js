@@ -65,10 +65,10 @@ function App() {
             <Route path='/portfolio/PokerGoHoldEm' exact element={<PokerGoHoldEm/>} />
             <Route path='/portfolio/OsirisNewDawn' exact element={<OsirisNewDawn/>} />
             <Route path='/portfolio/Maelstrom' exact element={<Maelstrom/>} />
-            <Route path='/portfolio/TPMS' exact element={<TPMS/>} />
+            {/* <Route path='/portfolio/TPMS' exact element={<TPMS/>} />
             <Route path='/portfolio/FPPCH' exact element={<FPPCH/>} />
             <Route path='/portfolio/BumperBalls' exact element={<BumperBalls/>} />
-            <Route path='/portfolio/CowboyShooter' exact element={<CowboyShooter/>} />
+            <Route path='/portfolio/CowboyShooter' exact element={<CowboyShooter/>} /> */}
 
             {/* <Route path='/contact' element={<Contact/>} /> */}
           </Routes>
