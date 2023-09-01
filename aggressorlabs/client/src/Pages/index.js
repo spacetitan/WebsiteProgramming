@@ -135,15 +135,15 @@ return (
 				<h1>Previous Works</h1>
 
 				<div className="index-worksContainer">
-					{/* <div className="index-workCard">
+					<div className="index-workCard">
 						<OverlayImages 
 							title = "SCE Game Show" 
-							body="Collab w/ SCE on team building Gameshow!"
+							body=""
 							linkText="Check it out!"
 							link="/portfolio/SCEGameshow"
-							imageLink="./Images/tempImage.png"
+							imageLink="./Images/Projects/SCEGameshow.png"
 						/>
-					</div> */}
+					</div>
 
 					<div className="index-workCard">
 						<OverlayImages 

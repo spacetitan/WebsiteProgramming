@@ -22,7 +22,7 @@ return (
 			</p>
 		</div>
 
-		<body className="portfolio-body">
+		<div className="portfolio-body">
 			<div className="portfolio-releasedProjectsBackground">
 
 				{/* <div className="portfolio-releasedProjectsHeader">
@@ -41,15 +41,15 @@ return (
 						/>
 					</div> */}
 
-					{/* <div className="portfolio-cardContainer">
+					<div className="portfolio-cardContainer">
 						<PortfolioCards 
 							title = "SCE Gameshow"
 							body = "Collaborated with a Southern California Edison engineer to build a team building excersice for the local office."
 							link = "SCEGameshow"
 							linkText = "More Details"
-							imageLink = "./Images/tempImage.png"
+							imageLink = "./Images/Projects/SCEGameshow.png"
 						/>
-					</div> */}
+					</div>
 
 					<div className="portfolio-cardContainer">
 						<PortfolioCards 
@@ -170,7 +170,7 @@ return (
 			
 			
 			<Footer />
-		</body>
+		</div>
 	</>
 );};
 

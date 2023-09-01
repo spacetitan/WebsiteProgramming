@@ -28,6 +28,21 @@
     height: 70vh;
 
     padding: 5vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.SCEGameshow-backButtonContainer
+{
+    background-color: transparent;
+
+    height: auto;
+    width: auto;
+
+    padding-top: 1%;
+    margin-left: 2%;
+
+    text-align: left;
 }
 
 .SCEGameshow-bodyContainer
@@ -38,7 +53,7 @@
     width: 90%;
 
     margin: auto;
-    justify-content: center;
+    margin-top: 2%;
 
     border: 1vh;
     border-radius: 1vh;
@@ -48,45 +63,53 @@
 {
     float: left;
 
-    height: 100%;
-    width: 30%;
+    height: 80%;
+    width: 40%;
 
-    border: 1vh;
-    border-radius: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .SCEGameshow-projectImage
 {
     height: auto;
-    width: auto;
-
-    margin: auto;
-    margin-top: 5vh;
+    width: 90%;
 }
+
+/* .SCEGameshow-imageBox
+{
+    height: 80%;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+
+    padding-top: 7%;
+} */
 
 .SCEGameshow-rightBox
 {
     float: right;
 
-    height: 100%;
-    width: 70%;
-
-    border: 1vh;
-    border-radius: 1vh;
+    height: 80%;
+    width: 60%;
 }
 
 .SCEGameshow-projectTitle
 {
-    padding-top: 5vh;
-
     text-align: left;
 
     color: #EDF2F4;
+
+    background-color: transparent;
 }
 
 .SCEGameshow-descriptionTitle
 {
-    padding-top: 5vh;
+    padding-top: 2vh;
 
     text-align: left;
 
@@ -112,12 +135,87 @@
     color: #EDF2F4;
 }
 
+.SCEGameshow-linkDiv
+{
+    width: 100%;
+    height: 10%;
+}
+
 .SCEGameshow-link
 {
-    padding-top: 1vh;
-
     float: left;
     margin-left: 0;
 
     color: #EDF2F4;
 }
+
+.SCEGameshow-or
+{
+    font-size: 22px;
+    text-align: left;
+
+    color: #EDF2F4;
+}
+
+.SCEGameshow-button
+{
+    background-color: transparent;
+
+    width: auto;
+    font-size: 22px;
+    text-align: left;
+
+    float: left;
+    margin-left: 0;
+
+    text-decoration: underline;
+    border-color: transparent;
+}
+
+/* @media screen and (max-width:1920px)
+{
+    .SCEGameshow-bodyContainer
+    {
+        height: 80%;
+    }
+
+    .SCEGameshow-link
+    {
+        font-size: 24px;
+    }
+
+    .SCEGameshow-linkDiv
+    {
+        height: 4vh;
+        width: 30%;
+    }
+
+    .SCEGameshow-or
+    {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:1366px)
+{
+    .SCEGameshow-bodyContainer
+    {
+        height: 100%;
+    }
+
+    .SCEGameshow-link
+    {
+        font-size: 18px;
+    }
+
+    .SCEGameshow-linkDiv
+    {
+        height: 5vh;
+        width: 60%;
+    }
+
+    .SCEGameshow-or
+    {
+        font-size: 18px;
+    }
+} */

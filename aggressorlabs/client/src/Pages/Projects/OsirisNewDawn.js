@@ -8,10 +8,10 @@ function OsirisNewDawn() {
 return (
     <>
         <div className="Osiris-header">
-            <h1 classname="Osiris-headerText">Portfolio</h1>
+            <h1 className="Osiris-headerText">Portfolio</h1>
         </div>
     
-        <body>
+        <div>
             <div className="Osiris-bodybackground">
                 <div className="Osiris-bodyContainer">
                     <div className="Osiris-backButtonContainer">
@@ -43,7 +43,7 @@ return (
             </div>
 
             <Footer />
-        </body>
+        </div>
     </>
 )};
 

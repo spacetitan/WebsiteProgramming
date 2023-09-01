@@ -7,10 +7,10 @@ function FullSwingGolfSimulator() {
 return (
     <>
         <div className="FSGS-header">
-            <h1 classname="FSGS-headerText">Portfolio</h1>
+            <h1 className="FSGS-headerText">Portfolio</h1>
         </div>
     
-        <body>
+        <div>
             <div className="FSGS-bodybackground">
                 <div className="FSGS-bodyContainer">
                     <div className="FSGS-backButtonContainer">
@@ -48,7 +48,7 @@ return (
             </div>
 
             <Footer />
-        </body>
+        </div>
     </>
 );}
 

@@ -7,10 +7,10 @@ function Maelstrom() {
 return (
     <>
         <div className="Maelstrom-header">
-            <h1 classname="Maelstrom-headerText">Portfolio</h1>
+            <h1 className="Maelstrom-headerText">Portfolio</h1>
         </div>
     
-        <body>
+        <div>
             <div className="Maelstrom-bodybackground">
                 <div className="Maelstrom-bodyContainer">
                     <div className="Maelstrom-backButtonContainer">
@@ -41,7 +41,7 @@ return (
             </div>
 
             <Footer />
-        </body>
+        </div>
     </>
 )};
 

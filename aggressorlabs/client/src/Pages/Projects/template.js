@@ -12,7 +12,7 @@ return (
        </div>
     </header>
    
-    <body>
+    <div>
         <div className="template-bodybackground">
             <div className="template-bodyContainer">
                 <div className="template-backButtonContainer">
@@ -43,7 +43,7 @@ return (
         </div>
 
         <Footer />
-    </body>
+    </div>
 </>
 );}
 

@@ -11,7 +11,7 @@ const OverlayImages = ({title, body, linkText, link, imageLink}) =>
 
 return(
     <div className="overlayImage-imageBox">
-        <img src={checkImage} alt="" className="overlayImage-workImage" />
+        <img src={checkImage} alt="Error loading image" className="overlayImage-workImage" />
 
         <div className="overlayImage-overlay">
             <h2>{checkTitle}</h2>

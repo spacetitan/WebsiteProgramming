@@ -7,10 +7,10 @@ function FullSwingLaunchMonitor() {
 return (
     <>
         <div className="FSLM-header">
-            <h1 classname="FSLM-headerText">Portfolio</h1>
+            <h1 className="FSLM-headerText">Portfolio</h1>
         </div>
     
-        <body>
+        <div>
             <div className="FSLM-bodybackground">
                 <div className="FSLM-bodyContainer">
                     <div className="FSLM-backButtonContainer">
@@ -48,7 +48,7 @@ return (
             </div>
 
             <Footer />
-        </body>
+        </div>
     </>
 )};
 
